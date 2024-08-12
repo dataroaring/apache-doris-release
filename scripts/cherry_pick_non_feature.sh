@@ -3,7 +3,7 @@
 
 source common.sh
 
-COMMITS=`grep -iv  "\[feature\]" commit_not_in_3.0 | grep -v "\[feat\]" | grep "PRS" | awk '{print $2}' | grep -v ignoring | grep -v pipeline`
+COMMITS=`grep -iv  "\[feature\]" commit_not_in_3.0 | grep -iv "\[feat\]" | grep "PRS" | awk '{print $2}' | grep -v ignoring | grep -v pipeline`
 
 handled=0
 for COMMIT in $COMMITS; do

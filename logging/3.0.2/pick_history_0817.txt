@@ -1,0 +1,2520 @@
+try to pick 94ffcb5b0c 0
+94ffcb5b0c
+try to pick e630ca7f4d 1
+e630ca7f4d
+try to pick 73a710fb0b 2
+73a710fb0b
+try to pick 426bd5e52e 3
+426bd5e52e
+try to pick aaaf54561c 4
+aaaf54561c
+try to pick 47cfd22f10 5
+47cfd22f10
+try to pick 99dce14859 6
+99dce14859
+try to pick 67c79a7065 7
+67c79a7065
+try to pick 814c74b9e3 8
+814c74b9e3
+try to pick d42c444a6a 9
+On branch branch-3.0
+Your branch is up to date with 'origin/branch-3.0'.
+
+You are currently cherry-picking commit d42c444a6a.
+  (all conflicts fixed: run "git cherry-pick --continue")
+  (use "git cherry-pick --skip" to skip this patch)
+  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   be/src/apache-orc (untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	0001-fix-autoinc-avoid-duplicated-auto-inc-when-role-of-f.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets-34003.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets.patch
+	0001-fix-oom-avoid-oom-when-a-lot-of-tablets-fail-on-load.patch
+	0001-fix.patch
+	0001-revert-improvement-mv-Support-to-use-cast-when-creat.patch
+	1.7.0.tar.gz
+	2.1.5commitlog
+	23092.patch.1
+	24639.patch.1
+	34143.patch
+	36311.patch
+	36349.patch
+	37533.patch
+	37643.patch
+	37762.patch
+	37848.patch
+	37855.patch
+	39288.patch
+	39338.patch
+	39373.patch
+	39429.patch
+	[jar]
+	a.out
+	backupmeta.patch
+	be.tar.gz
+	be/src/clucene.rej
+	be/src/olap/merger.cpp.orig
+	be/src/olap/merger.cpp.rej
+	be/src/olap/rowset/beta_rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.rej
+	be/src/olap/rowset/rowset.h.orig
+	be/src/olap/storage_engine.cpp.orig
+	be/src/olap/tablet.cpp.orig
+	be/src/olap/tablet.cpp.rej
+	be/src/olap/tablet.h.orig
+	be/src/olap/tablet_manager.cpp.orig
+	be/src/vec/sink/:wq
+	binary_diff
+	brpc-1.7.0/
+	build.sh.rej
+	c83e40928762ff2bbd99966ef5b82b8f216fd60f.patch
+	callonce.cpp
+	catch_pipeline.patch
+	check_and_label_prs.sh
+	cherry-pick.sh
+	cherry_pick.result
+	cherry_pick_non_feature.sh
+	commit_not_in_3.0
+	commit_not_in_3.0_0812.txt
+	commit_not_in_3.0_author_order.0812
+	commit_with_author
+	commitlog
+	commitlog_3.0_0722
+	common.sh
+	compare_3.0_with_master_and_2.1.sh
+	compare_commit.logging
+	compare_commit.result
+	conflict_3.0_commits.txt
+	conflict_new_commits.txt
+	diff_files
+	doris-2.0.5-rc02.tar.gz
+	doris-meta.tar.gz
+	doris-thirdparty-prebuilt-linux-x86_64.tar
+	doris_be.tar.gz
+	fe.out
+	fe.tar.gz
+	fe.ut
+	fe.ut.out
+	fe/ajcore.20240620.115138.899.txt
+	fe/fe-core/kafka_datasource_properties
+	fe/fe-core/null/
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/backup/RestoreJob.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/MTMV.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/OlapTable.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils134.java.orig
+	fe/fe-core/test_datasource_properties
+	file_new.txt
+	fix.sh
+	get_prs_by_label.py
+	ignored_pr_by_3.0.txt
+	jdk_env.sh
+	label_3.0.x_for_p0.sh
+	label_commits_with_label.sh
+	label_conflict.logging
+	label_conflict_prs.sh
+	label_master.result
+	label_pr_in_master.logging
+	label_pr_with_3.0.x.sh
+	label_pr_with_3.0.x_in_master.sh
+	meta_check.py
+	not_in_3.0_prs
+	output.txt
+	part3
+	patch
+	patch.gsonutil
+	pick3.0-07-19
+	pick_history_0817.txt
+	regression-test/data/compress_p1/
+	release_output.tar.gz
+	release_output/
+	simple-file.binary
+	test.cpp
+	test_env/
+	thirdparty.master/
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar.xz.1
+	thirdparty/libevent-enable_keepalive_accepted_socket.patch
+	yyq.beut
+	yyq.compare.0The previous cherry-pick is now empty, possibly due to conflict resolution.
+If you wish to commit it anyway, use:
+
+    git commit --allow-empty
+
+Otherwise, please use 'git cherry-pick --skip'
+802
+	yyq.compare.0804
+	yyq.debug
+	yyq.feout
+	yyq.label_master
+	yyq.label_master.dry_run
+	yyq.out
+	yyq.ut
+	yyq/
+	zoneinfo/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+failed to pick d42c444a6a
+try to pick 004c5a369a 10
+004c5a369a
+try to pick 4286608979 11
+4286608979
+try to pick 309f3b674a 12
+Auto-merging be/src/cloud/cloud_base_compaction.cpp
+Auto-merging be/src/cloud/cloud_cumulative_compaction.cpp
+Auto-merging be/src/cloud/cloud_engine_calc_delete_bitmap_task.cpp
+Auto-merging be/src/cloud/cloud_meta_mgr.cpp
+Auto-merging be/src/cloud/cloud_storage_engine.cpp
+Auto-merging be/src/cloud/cloud_tablet.cpp
+Auto-merging be/src/cloud/config.cpp
+Auto-merging be/src/cloud/config.h
+Auto-merging be/src/olap/base_tablet.cpp
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/alter/SchemaChangeJobV2.java
+CONFLICT (content): Merge conflict in fe/fe-core/src/main/java/org/apache/doris/alter/SchemaChangeJobV2.java
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/cloud/datasource/CloudInternalCatalog.java
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/cloud/rpc/MetaServiceClient.java
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/cloud/rpc/MetaServiceProxy.java
+CONFLICT (content): Merge conflict in fe/fe-core/src/main/java/org/apache/doris/cloud/rpc/MetaServiceProxy.java
+Auto-merging gensrc/proto/cloud.proto
+Auto-merging regression-test/plugins/plugin_curl_requester.groovy
+error: could not apply 309f3b674a... [revert](cloud-merge) Support shadow tablet to do cumulative compaction in cloud mode (apache#37293)" (#38828)
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+failed to pick 309f3b674a
+try to pick 309f3b674a 13
+Auto-merging be/src/cloud/cloud_base_compaction.cpp
+Auto-merging be/src/cloud/cloud_cumulative_compaction.cpp
+Auto-merging be/src/cloud/cloud_engine_calc_delete_bitmap_task.cpp
+Auto-merging be/src/cloud/cloud_meta_mgr.cpp
+Auto-merging be/src/cloud/cloud_storage_engine.cpp
+Auto-merging be/src/cloud/cloud_tablet.cpp
+Auto-merging be/src/cloud/config.cpp
+Auto-merging be/src/cloud/config.h
+Auto-merging be/src/olap/base_tablet.cpp
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/alter/SchemaChangeJobV2.java
+CONFLICT (content): Merge conflict in fe/fe-core/src/main/java/org/apache/doris/alter/SchemaChangeJobV2.java
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/cloud/datasource/CloudInternalCatalog.java
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/cloud/rpc/MetaServiceClient.java
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/cloud/rpc/MetaServiceProxy.java
+CONFLICT (content): Merge conflict in fe/fe-core/src/main/java/org/apache/doris/cloud/rpc/MetaServiceProxy.java
+Auto-merging gensrc/proto/cloud.proto
+Auto-merging regression-test/plugins/plugin_curl_requester.groovy
+error: could not apply 309f3b674a... [revert](cloud-merge) Support shadow tablet to do cumulative compaction in cloud mode (apache#37293)" (#38828)
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+failed to pick 309f3b674a
+try to pick fbe529b075 14
+CONFLICT (modify/delete): be/src/vec/functions/function_split_by_regexp.cpp deleted in HEAD and modified in fbe529b075 ([fix] add null check before accessing pointer (#38817)).  Version fbe529b075 ([fix] add null check before accessing pointer (#38817)) of be/src/vec/functions/function_split_by_regexp.cpp left in tree.
+error: could not apply fbe529b075... [fix] add null check before accessing pointer (#38817)
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+failed to pick fbe529b075
+try to pick 13cb38053d 15
+Auto-merging be/src/olap/cumulative_compaction.cpp
+Auto-merging be/src/olap/tablet.cpp
+CONFLICT (content): Merge conflict in be/src/olap/tablet.cpp
+error: could not apply 13cb38053d... [fix] (compaction) fix time series compaction policy (#38220)
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+failed to pick 13cb38053d
+try to pick 44ac169dd4 16
+Auto-merging be/src/exprs/bloom_filter_func.h
+CONFLICT (content): Merge conflict in be/src/exprs/bloom_filter_func.h
+Auto-merging be/src/exprs/runtime_filter.cpp
+CONFLICT (content): Merge conflict in be/src/exprs/runtime_filter.cpp
+Auto-merging be/src/exprs/runtime_filter.h
+CONFLICT (content): Merge conflict in be/src/exprs/runtime_filter.h
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/qe/SessionVariable.java
+CONFLICT (content): Merge conflict in fe/fe-core/src/main/java/org/apache/doris/qe/SessionVariable.java
+error: could not apply 44ac169dd4... [Improvement](runtime-filter) send RUNTIME_BLOOM_FILTER_MAX_SIZE to backends (#38972)
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+failed to pick 44ac169dd4
+try to pick 4f08995b31 17
+Auto-merging regression-test/plugins/plugin_curl_requester.groovy
+On branch branch-3.0
+Your branch is up to date with 'origin/branch-3.0'.
+
+You are currently cherry-picking commit 4f08995b31.
+  (all conflicts fixed: run "git cherry-pick --continue")
+  (use "git cherry-pick --skip" to skip this patch)
+  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   be/src/apache-orc (untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	0001-fix-autoinc-avoid-duplicated-auto-inc-when-role-of-f.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets-34003.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets.patch
+	0001-fix-oom-avoid-oom-when-a-lot-of-tablets-fail-on-load.patch
+	0001-fix.patch
+	0001-revert-improvement-mv-Support-to-use-cast-when-creat.patch
+	1.7.0.tar.gz
+	2.1.5commitlog
+	23092.patch.1
+	24639.patch.1
+	34143.patch
+	36311.patch
+	36349.patch
+	37533.patch
+	37643.patch
+	37762.patch
+	37848.patch
+	37855.patch
+	39288.patch
+	39338.patch
+	39373.patch
+	39429.patch
+	[jar]
+	a.out
+	backupmeta.patch
+	be.tar.gz
+	be/src/clucene.rej
+	be/src/olap/merger.cpp.orig
+	be/src/olap/merger.cpp.rej
+	be/src/olap/rowset/beta_rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.rej
+	be/src/olap/rowset/rowset.h.orig
+	be/src/olap/storage_engine.cpp.orig
+	be/src/olap/tablet.cpp.orig
+	be/src/olap/tablet.cpp.rej
+	be/src/olap/tablet.h.orig
+	be/src/olap/tablet_manager.cpp.orig
+	be/src/vec/sink/:wq
+	binary_diff
+	brpc-1.7.0/
+	build.sh.rej
+	c83e40928762ff2bbd99966ef5b82b8f216fd60f.patch
+	callonce.cpp
+	catch_pipeline.patch
+	check_and_label_prs.sh
+	cherry-pick.sh
+	cherry_pick.result
+	cherry_pick_non_feature.sh
+	commit_not_in_3.0
+	commit_not_in_3.0_0812.txt
+	commit_not_in_3.0_author_order.0812
+	commit_with_author
+	commitlog
+	commitlog_3.0_0722
+	common.sh
+	compare_3.0_with_master_and_2.1.sh
+	compare_commit.logging
+	compare_commit.result
+	conflict_3.0_commits.txt
+	conflict_new_commits.txt
+	diff_files
+	doris-2.0.5-rc02.tar.gz
+	doris-meta.tar.gz
+	doris-thirdparty-prebuilt-linux-x86_64.tar
+	doris_be.tar.gz
+	fe.out
+	fe.tar.gz
+	fe.ut
+	fe.ut.out
+	fe/ajcore.20240620.115138.899.txt
+	fe/fe-core/kafka_datasource_properties
+	fe/fe-core/null/
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/backup/RestoreJob.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/MTMV.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/OlapTable.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils134.java.orig
+	fe/fe-core/test_datasource_properties
+	file_new.txt
+	fix.sh
+	get_prs_by_label.py
+	ignored_pr_by_3.0.txt
+	jdk_env.sh
+	label_3.0.x_for_p0.sh
+	label_commits_with_label.sh
+	label_conflict.logging
+	label_conflict_prs.sh
+	label_master.result
+	label_pr_in_master.logging
+	label_pr_with_3.0.x.sh
+	label_pr_with_3.0.x_in_master.sh
+	meta_check.py
+	not_in_3.0_prs
+	output.txt
+	part3
+	patch
+	patch.gsonutil
+	pick3.0-07-19
+	pick_history_0817.txt
+	regression-test/data/compress_p1/
+	release_output.tar.gz
+	release_output/
+	simple-file.binary
+	test.cpp
+	test_env/
+	thirdparty.master/
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar.xz.1
+	thirdparty/libevent-enable_keepalive_accepted_socket.patch
+	yyq.beut
+	yyq.compare.0The previous cherry-pick is now empty, possibly due to conflict resolution.
+If you wish to commit it anyway, use:
+
+    git commit --allow-empty
+
+Otherwise, please use 'git cherry-pick --skip'
+802
+	yyq.compare.0804
+	yyq.debug
+	yyq.feout
+	yyq.label_master
+	yyq.label_master.dry_run
+	yyq.out
+	yyq.ut
+	yyq/
+	zoneinfo/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+failed to pick 4f08995b31
+try to pick 99dce14859 18
+99dce14859
+try to pick df5563971b 19
+On branch branch-3.0
+Your branch is up to date with 'origin/branch-3.0'.
+
+You are currently cherry-picking commit df5563971b.
+  (all conflicts fixed: run "git cherry-pick --continue")
+  (use "git cherry-pick --skip" to skip this patch)
+  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   be/src/apache-orc (untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	0001-fix-autoinc-avoid-duplicated-auto-inc-when-role-of-f.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets-34003.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets.patch
+	0001-fix-oom-avoid-oom-when-a-lot-of-tablets-fail-on-load.patch
+	0001-fix.patch
+	0001-revert-improvement-mv-Support-to-use-cast-when-creat.patch
+	1.7.0.tar.gz
+	2.1.5commitlog
+	23092.patch.1
+	24639.patch.1
+	34143.patch
+	36311.patch
+	36349.patch
+	37533.patch
+	37643.patch
+	37762.patch
+	37848.patch
+	37855.patch
+	39288.patch
+	39338.patch
+	39373.patch
+	39429.patch
+	[jar]
+	a.out
+	backupmeta.patch
+	be.tar.gz
+	be/src/clucene.rej
+	be/src/olap/merger.cpp.orig
+	be/src/olap/merger.cpp.rej
+	be/src/olap/rowset/beta_rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.rej
+	be/src/olap/rowset/rowset.h.orig
+	be/src/olap/storage_engine.cpp.orig
+	be/src/olap/tablet.cpp.orig
+	be/src/olap/tablet.cpp.rej
+	be/src/olap/tablet.h.orig
+	be/src/olap/tablet_manager.cpp.orig
+	be/src/vec/sink/:wq
+	binary_diff
+	brpc-1.7.0/
+	build.sh.rej
+	c83e40928762ff2bbd99966ef5b82b8f216fd60f.patch
+	callonce.cpp
+	catch_pipeline.patch
+	check_and_label_prs.sh
+	cherry-pick.sh
+	cherry_pick.result
+	cherry_pick_non_feature.sh
+	commit_not_in_3.0
+	commit_not_in_3.0_0812.txt
+	commit_not_in_3.0_author_order.0812
+	commit_with_author
+	commitlog
+	commitlog_3.0_0722
+	common.sh
+	compare_3.0_with_master_and_2.1.sh
+	compare_commit.logging
+	compare_commit.result
+	conflict_3.0_commits.txt
+	conflict_new_commits.txt
+	diff_files
+	doris-2.0.5-rc02.tar.gz
+	doris-meta.tar.gz
+	doris-thirdparty-prebuilt-linux-x86_64.tar
+	doris_be.tar.gz
+	fe.out
+	fe.tar.gz
+	fe.ut
+	fe.ut.out
+	fe/ajcore.20240620.115138.899.txt
+	fe/fe-core/kafka_datasource_properties
+	fe/fe-core/null/
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/backup/RestoreJob.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/MTMV.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/OlapTable.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils134.java.orig
+	fe/fe-core/test_datasource_properties
+	file_new.txt
+	fix.sh
+	get_prs_by_label.py
+	ignored_pr_by_3.0.txt
+	jdk_env.sh
+	label_3.0.x_for_p0.sh
+	label_commits_with_label.sh
+	label_conflict.logging
+	label_conflict_prs.sh
+	label_master.result
+	label_pr_in_master.logging
+	label_pr_with_3.0.x.sh
+	label_pr_with_3.0.x_in_master.sh
+	meta_check.py
+	not_in_3.0_prs
+	output.txt
+	part3
+	patch
+	patch.gsonutil
+	pick3.0-07-19
+	pick_history_0817.txt
+	regression-test/data/compress_p1/
+	release_output.tar.gz
+	release_output/
+	simple-file.binary
+	test.cpp
+	test_env/
+	thirdparty.master/
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar.xz.1
+	thirdparty/libevent-enable_keepalive_accepted_socket.patch
+	yyq.beut
+	yyq.compare.0The previous cherry-pick is now empty, possibly due to conflict resolution.
+If you wish to commit it anyway, use:
+
+    git commit --allow-empty
+
+Otherwise, please use 'git cherry-pick --skip'
+802
+	yyq.compare.0804
+	yyq.debug
+	yyq.feout
+	yyq.label_master
+	yyq.label_master.dry_run
+	yyq.out
+	yyq.ut
+	yyq/
+	zoneinfo/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+failed to pick df5563971b
+try to pick e2c89708b4 20
+On branch branch-3.0
+Your branch is up to date with 'origin/branch-3.0'.
+
+You are currently cherry-picking commit e2c89708b4.
+  (all conflicts fixed: run "git cherry-pick --continue")
+  (use "git cherry-pick --skip" to skip this patch)
+  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   be/src/apache-orc (untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	0001-fix-autoinc-avoid-duplicated-auto-inc-when-role-of-f.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets-34003.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets.patch
+	0001-fix-oom-avoid-oom-when-a-lot-of-tablets-fail-on-load.patch
+	0001-fix.patch
+	0001-revert-improvement-mv-Support-to-use-cast-when-creat.patch
+	1.7.0.tar.gz
+	2.1.5commitlog
+	23092.patch.1
+	24639.patch.1
+	34143.patch
+	36311.patch
+	36349.patch
+	37533.patch
+	37643.patch
+	37762.patch
+	37848.patch
+	37855.patch
+	39288.patch
+	39338.patch
+	39373.patch
+	39429.patch
+	[jar]
+	a.out
+	backupmeta.patch
+	be.tar.gz
+	be/src/clucene.rej
+	be/src/olap/merger.cpp.orig
+	be/src/olap/merger.cpp.rej
+	be/src/olap/rowset/beta_rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.rej
+	be/src/olap/rowset/rowset.h.orig
+	be/src/olap/storage_engine.cpp.orig
+	be/src/olap/tablet.cpp.orig
+	be/src/olap/tablet.cpp.rej
+	be/src/olap/tablet.h.orig
+	be/src/olap/tablet_manager.cpp.orig
+	be/src/vec/sink/:wq
+	binary_diff
+	brpc-1.7.0/
+	build.sh.rej
+	c83e40928762ff2bbd99966ef5b82b8f216fd60f.patch
+	callonce.cpp
+	catch_pipeline.patch
+	check_and_label_prs.sh
+	cherry-pick.sh
+	cherry_pick.result
+	cherry_pick_non_feature.sh
+	commit_not_in_3.0
+	commit_not_in_3.0_0812.txt
+	commit_not_in_3.0_author_order.0812
+	commit_with_author
+	commitlog
+	commitlog_3.0_0722
+	common.sh
+	compare_3.0_with_master_and_2.1.sh
+	compare_commit.logging
+	compare_commit.result
+	conflict_3.0_commits.txt
+	conflict_new_commits.txt
+	diff_files
+	doris-2.0.5-rc02.tar.gz
+	doris-meta.tar.gz
+	doris-thirdparty-prebuilt-linux-x86_64.tar
+	doris_be.tar.gz
+	fe.out
+	fe.tar.gz
+	fe.ut
+	fe.ut.out
+	fe/ajcore.20240620.115138.899.txt
+	fe/fe-core/kafka_datasource_properties
+	fe/fe-core/null/
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/backup/RestoreJob.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/MTMV.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/OlapTable.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils134.java.orig
+	fe/fe-core/test_datasource_properties
+	file_new.txt
+	fix.sh
+	get_prs_by_label.py
+	ignored_pr_by_3.0.txt
+	jdk_env.sh
+	label_3.0.x_for_p0.sh
+	label_commits_with_label.sh
+	label_conflict.logging
+	label_conflict_prs.sh
+	label_master.result
+	label_pr_in_master.logging
+	label_pr_with_3.0.x.sh
+	label_pr_with_3.0.x_in_master.sh
+	meta_check.py
+	not_in_3.0_prs
+	output.txt
+	part3
+	patch
+	patch.gsonutil
+	pick3.0-07-19
+	pick_history_0817.txt
+	regression-test/data/compress_p1/
+	release_output.tar.gz
+	release_output/
+	simple-file.binary
+	test.cpp
+	test_env/
+	thirdparty.master/
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar.xz.1
+	thirdparty/libevent-enable_keepalive_accepted_socket.patch
+	yyq.beut
+	yyq.compare.0The previous cherry-pick is now empty, possibly due to conflict resolution.
+If you wish to commit it anyway, use:
+
+    git commit --allow-empty
+
+Otherwise, please use 'git cherry-pick --skip'
+802
+	yyq.compare.0804
+	yyq.debug
+	yyq.feout
+	yyq.label_master
+	yyq.label_master.dry_run
+	yyq.out
+	yyq.ut
+	yyq/
+	zoneinfo/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+failed to pick e2c89708b4
+try to pick 572643a26e 21
+Auto-merging fe/be-java-extensions/lakesoul-scanner/pom.xml
+CONFLICT (content): Merge conflict in fe/be-java-extensions/lakesoul-scanner/pom.xml
+Auto-merging fe/be-java-extensions/lakesoul-scanner/src/main/java/org/apache/doris/lakesoul/LakeSoulJniScanner.java
+CONFLICT (content): Merge conflict in fe/be-java-extensions/lakesoul-scanner/src/main/java/org/apache/doris/lakesoul/LakeSoulJniScanner.java
+Auto-merging fe/fe-core/pom.xml
+CONFLICT (content): Merge conflict in fe/fe-core/pom.xml
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/datasource/lakesoul/LakeSoulExternalCatalog.java
+CONFLICT (content): Merge conflict in fe/fe-core/src/main/java/org/apache/doris/datasource/lakesoul/LakeSoulExternalCatalog.java
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/datasource/lakesoul/LakeSoulExternalTable.java
+CONFLICT (content): Merge conflict in fe/fe-core/src/main/java/org/apache/doris/datasource/lakesoul/LakeSoulExternalTable.java
+CONFLICT (modify/delete): fe/fe-core/src/main/java/org/apache/doris/datasource/lakesoul/LakeSoulUtils.java deleted in HEAD and modified in 572643a26e ([Fix](lakesoul) Fix CVEs and some filter pushdown issues (#39044)).  Version 572643a26e ([Fix](lakesoul) Fix CVEs and some filter pushdown issues (#39044)) of fe/fe-core/src/main/java/org/apache/doris/datasource/lakesoul/LakeSoulUtils.java left in tree.
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/datasource/lakesoul/source/LakeSoulScanNode.java
+CONFLICT (content): Merge conflict in fe/fe-core/src/main/java/org/apache/doris/datasource/lakesoul/source/LakeSoulScanNode.java
+CONFLICT (modify/delete): fe/fe-core/src/test/java/org/apache/doris/datasource/lakesoul/LakeSoulPredicateTest.java deleted in HEAD and modified in 572643a26e ([Fix](lakesoul) Fix CVEs and some filter pushdown issues (#39044)).  Version 572643a26e ([Fix](lakesoul) Fix CVEs and some filter pushdown issues (#39044)) of fe/fe-core/src/test/java/org/apache/doris/datasource/lakesoul/LakeSoulPredicateTest.java left in tree.
+Auto-merging fe/pom.xml
+CONFLICT (content): Merge conflict in fe/pom.xml
+CONFLICT (modify/delete): regression-test/suites/external_table_p0/lakesoul/test_lakesoul_filter.groovy deleted in HEAD and modified in 572643a26e ([Fix](lakesoul) Fix CVEs and some filter pushdown issues (#39044)).  Version 572643a26e ([Fix](lakesoul) Fix CVEs and some filter pushdown issues (#39044)) of regression-test/suites/external_table_p0/lakesoul/test_lakesoul_filter.groovy left in tree.
+Auto-merging regression-test/suites/external_table_p2/lakesoul/test_external_table_lakesoul.groovy
+error: could not apply 572643a26e... [Fix](lakesoul) Fix CVEs and some filter pushdown issues (#39044)
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+failed to pick 572643a26e
+try to pick 476a159dea 22
+On branch branch-3.0
+Your branch is up to date with 'origin/branch-3.0'.
+
+You are currently cherry-picking commit 476a159dea.
+  (all conflicts fixed: run "git cherry-pick --continue")
+  (use "git cherry-pick --skip" to skip this patch)
+  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   be/src/apache-orc (untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	0001-fix-autoinc-avoid-duplicated-auto-inc-when-role-of-f.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets-34003.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets.patch
+	0001-fix-oom-avoid-oom-when-a-lot-of-tablets-fail-on-load.patch
+	0001-fix.patch
+	0001-revert-improvement-mv-Support-to-use-cast-when-creat.patch
+	1.7.0.tar.gz
+	2.1.5commitlog
+	23092.patch.1
+	24639.patch.1
+	34143.patch
+	36311.patch
+	36349.patch
+	37533.patch
+	37643.patch
+	37762.patch
+	37848.patch
+	37855.patch
+	39288.patch
+	39338.patch
+	39373.patch
+	39429.patch
+	[jar]
+	a.out
+	backupmeta.patch
+	be.tar.gz
+	be/src/clucene.rej
+	be/src/olap/merger.cpp.orig
+	be/src/olap/merger.cpp.rej
+	be/src/olap/rowset/beta_rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.rej
+	be/src/olap/rowset/rowset.h.orig
+	be/src/olap/storage_engine.cpp.orig
+	be/src/olap/tablet.cpp.orig
+	be/src/olap/tablet.cpp.rej
+	be/src/olap/tablet.h.orig
+	be/src/olap/tablet_manager.cpp.orig
+	be/src/vec/sink/:wq
+	binary_diff
+	brpc-1.7.0/
+	build.sh.rej
+	c83e40928762ff2bbd99966ef5b82b8f216fd60f.patch
+	callonce.cpp
+	catch_pipeline.patch
+	check_and_label_prs.sh
+	cherry-pick.sh
+	cherry_pick.result
+	cherry_pick_non_feature.sh
+	commit_not_in_3.0
+	commit_not_in_3.0_0812.txt
+	commit_not_in_3.0_author_order.0812
+	commit_with_author
+	commitlog
+	commitlog_3.0_0722
+	common.sh
+	compare_3.0_with_master_and_2.1.sh
+	compare_commit.logging
+	compare_commit.result
+	conflict_3.0_commits.txt
+	conflict_new_commits.txt
+	diff_files
+	doris-2.0.5-rc02.tar.gz
+	doris-meta.tar.gz
+	doris-thirdparty-prebuilt-linux-x86_64.tar
+	doris_be.tar.gz
+	fe.out
+	fe.tar.gz
+	fe.ut
+	fe.ut.out
+	fe/ajcore.20240620.115138.899.txt
+	fe/fe-core/kafka_datasource_properties
+	fe/fe-core/null/
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/backup/RestoreJob.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/MTMV.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/OlapTable.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils134.java.orig
+	fe/fe-core/test_datasource_properties
+	file_new.txt
+	fix.sh
+	get_prs_by_label.py
+	ignored_pr_by_3.0.txt
+	jdk_env.sh
+	label_3.0.x_for_p0.sh
+	label_commits_with_label.sh
+	label_conflict.logging
+	label_conflict_prs.sh
+	label_master.result
+	label_pr_in_master.logging
+	label_pr_with_3.0.x.sh
+	label_pr_with_3.0.x_in_master.sh
+	meta_check.py
+	not_in_3.0_prs
+	output.txt
+	part3
+	patch
+	patch.gsonutil
+	pick3.0-07-19
+	pick_history_0817.txt
+	regression-test/data/compress_p1/
+	release_output.tar.gz
+	release_output/
+	simple-file.binary
+	test.cpp
+	test_env/
+	thirdparty.master/
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar.xz.1
+	thirdparty/libevent-enable_keepalive_accepted_socket.patch
+	yyq.beut
+	yyq.compare.0The previous cherry-pick is now empty, possibly due to conflict resolution.
+If you wish to commit it anyway, use:
+
+    git commit --allow-empty
+
+Otherwise, please use 'git cherry-pick --skip'
+802
+	yyq.compare.0804
+	yyq.debug
+	yyq.feout
+	yyq.label_master
+	yyq.label_master.dry_run
+	yyq.out
+	yyq.ut
+	yyq/
+	zoneinfo/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+failed to pick 476a159dea
+try to pick c35e931b85 23
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java
+[branch-3.0 21c946f61f] [improvement](iceberg)add some description for `show create` (#39179)
+ Author: wuwenchi <wuwenchihdu@hotmail.com>
+ Date: Sun Aug 11 22:20:07 2024 +0800
+ 5 files changed, 111 insertions(+), 2 deletions(-)
+ create mode 100644 regression-test/suites/external_table_p0/iceberg/test_iceberg_show_create.groovy
+picked c35e931b85 24
+try to pick dc8bd00bcd 24
+[branch-3.0 edf190307d] [case](iceberg)append iceberg schema change case. (#38766)
+ Author: daidai <2017501503@qq.com>
+ Date: Sun Aug 11 22:21:01 2024 +0800
+ 11 files changed, 389 insertions(+), 27 deletions(-)
+ mode change 100755 => 100644 docker/thirdparties/docker-compose/iceberg/entrypoint.sh.tpl
+ create mode 100644 docker/thirdparties/docker-compose/iceberg/scripts/create_preinstalled_scripts/run01.sql
+ create mode 100644 docker/thirdparties/docker-compose/iceberg/scripts/create_preinstalled_scripts/run02.sql
+ create mode 100644 docker/thirdparties/docker-compose/iceberg/scripts/create_preinstalled_scripts/run03.sql
+ create mode 100644 docker/thirdparties/docker-compose/iceberg/scripts/create_preinstalled_scripts/run04.sql
+ rename docker/thirdparties/docker-compose/iceberg/{spark-init-iceberg.sql => scripts/create_preinstalled_scripts/run05.sql} (100%)
+ delete mode 100644 docker/thirdparties/docker-compose/iceberg/spark-init-paimon.sql
+picked dc8bd00bcd 25
+try to pick d0793fadf3 25
+[branch-3.0 95ea213351] [Fix](broker)fix change afs and bos properties not working cause of hadoop filesystem cache. (#39117)
+ Author: sparrow <38098988+biohazard4321@users.noreply.github.com>
+ Date: Sun Aug 11 23:43:35 2024 +0800
+ 1 file changed, 4 insertions(+)
+picked d0793fadf3 26
+try to pick c77bca3321 26
+[branch-3.0 d2c3790736] [Improment]Add workload group resource usage (#39177)
+ Author: wangbo <wangbo@apache.org>
+ Date: Mon Aug 12 09:31:21 2024 +0800
+ 26 files changed, 342 insertions(+), 48 deletions(-)
+ create mode 100644 be/src/exec/schema_scanner/schema_workload_group_resource_usage_scanner.cpp
+ create mode 100644 be/src/exec/schema_scanner/schema_workload_group_resource_usage_scanner.h
+picked c77bca3321 27
+try to pick 88b518b4df 27
+[branch-3.0 f3e28031b1] [enhancement](regression-test) agg schema key modify case (#39198)
+ Author: kkop <2449402815@qq.com>
+ Date: Mon Aug 12 09:35:33 2024 +0800
+ 2 files changed, 3533 insertions(+)
+ create mode 100644 regression-test/suites/schema_change_p0/test_agg_schema_key_change_modify.groovy
+ create mode 100644 regression-test/suites/schema_change_p0/test_agg_schema_key_change_modify1.groovy
+picked 88b518b4df 28
+try to pick b3c94328bc 28
+[branch-3.0 ba2397f4e0] [enhancement](regression-test) agg schema key/value drop case (#39098)
+ Author: kkop <2449402815@qq.com>
+ Date: Mon Aug 12 09:36:38 2024 +0800
+ 2 files changed, 1677 insertions(+)
+ create mode 100644 regression-test/suites/schema_change_p0/test_agg_schema_key_drop.groovy
+ create mode 100644 regression-test/suites/schema_change_p0/test_agg_schema_value_drop.groovy
+picked b3c94328bc 29
+try to pick 319c7bec1b 29
+[branch-3.0 219694cb12] [enhancement](regression-test) agg schema key add case (#38914)
+ Author: kkop <2449402815@qq.com>
+ Date: Mon Aug 12 09:37:31 2024 +0800
+ 1 file changed, 518 insertions(+)
+ create mode 100644 regression-test/suites/schema_change_p0/test_agg_schema_key_add.groovy
+picked 319c7bec1b 30
+try to pick 11fddf1855 30
+[branch-3.0 b8e4811706] [fix](tools) tpcds-tools: report benchmark result before cleanup (#38864)
+ Author: minghong <englefly@gmail.com>
+ Date: Mon Aug 12 09:58:49 2024 +0800
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+picked 11fddf1855 31
+try to pick f7be580fae 31
+[branch-3.0 5fdd144dcb] [opt](nereids) get table row count according to BE reported num and analyze result (#38880)
+ Author: minghong <englefly@gmail.com>
+ Date: Mon Aug 12 10:33:14 2024 +0800
+ 19 files changed, 438 insertions(+), 595 deletions(-)
+picked f7be580fae 32
+try to pick 68b54b57c1 32
+[branch-3.0 ec7619d943] [fix](nereids)update regression case for eager-agg (#38464)
+ Author: minghong <englefly@gmail.com>
+ Date: Mon Aug 12 10:34:52 2024 +0800
+ 7 files changed, 16 insertions(+), 10 deletions(-)
+picked 68b54b57c1 33
+try to pick 404966da10 33
+[branch-3.0 7298b416f0] [Chore](materialized-view) add key column limit of uniq table's create mv stmt (#39139)
+ Author: Pxl <pxl290@qq.com>
+ Date: Mon Aug 12 10:50:24 2024 +0800
+ 7 files changed, 30 insertions(+), 17 deletions(-)
+picked 404966da10 34
+try to pick 81438d561b 34
+[branch-3.0 3ad98f2d60] [fix](jdbc scan) Remove the `conjuncts.remove` call in JdbcScan (#39180)
+ Author: zy-kkk <zhongyk10@gmail.com>
+ Date: Mon Aug 12 10:53:26 2024 +0800
+ 6 files changed, 134 insertions(+), 128 deletions(-)
+picked 81438d561b 35
+try to pick dee2b70d3e 35
+[branch-3.0 a01518cdd1] [enhance](mtmv)hive cache add partitionId to partitionName Map (#38525)
+ Author: zhangdong <493738387@qq.com>
+ Date: Mon Aug 12 11:05:00 2024 +0800
+ 7 files changed, 13 insertions(+), 58 deletions(-)
+picked dee2b70d3e 36
+try to pick 1f6e5cba61 36
+[branch-3.0 3c5a2a26c4] [enhancement](regression-test) agg schema value add case (#38968)
+ Author: kkop <2449402815@qq.com>
+ Date: Mon Aug 12 11:12:54 2024 +0800
+ 2 files changed, 655 insertions(+)
+ create mode 100644 regression-test/data/schema_change_p0/test_agg_schema_value_add.out
+ create mode 100644 regression-test/suites/schema_change_p0/test_agg_schema_value_add.groovy
+picked 1f6e5cba61 37
+try to pick 86246f78bd 37
+[branch-3.0 25c8f45ae6] [opt](bytebuffer) allocate ByteBuffer memory by Allocator and make it exception safe (#38960)
+ Author: hui lai <1353307710@qq.com>
+ Date: Mon Aug 12 11:17:43 2024 +0800
+ 8 files changed, 87 insertions(+), 40 deletions(-)
+picked 86246f78bd 38
+try to pick d91a7adb14 38
+[branch-3.0 467c2fa3dc] [enhance](auth)modify priv of refresh catalog/db/table (#39008)
+ Author: zhangdong <493738387@qq.com>
+ Date: Mon Aug 12 11:35:22 2024 +0800
+ 6 files changed, 14 insertions(+), 30 deletions(-)
+picked d91a7adb14 39
+try to pick 1810cba236 39
+[branch-3.0 fc572bc0a7] [fix](variable) support all type functions (#39144)
+ Author: morrySnow <101034200+morrySnow@users.noreply.github.com>
+ Date: Mon Aug 12 15:20:57 2024 +0800
+ 3 files changed, 4 insertions(+), 2 deletions(-)
+picked 1810cba236 40
+try to pick 433b84a185 40
+Auto-merging be/src/vec/exec/format/parquet/vparquet_reader.cpp
+Auto-merging be/src/vec/exec/format/parquet/vparquet_reader.h
+CONFLICT (content): Merge conflict in be/src/vec/exec/format/parquet/vparquet_reader.h
+error: could not apply 433b84a185... [Fix](parquet-reader) Fix and optimize parquet min-max filtering. (#38277)
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+failed to pick 433b84a185
+try to pick 4910a5aa72 41
+Auto-merging fe/fe-common/src/main/java/org/apache/doris/common/Config.java
+[branch-3.0 26b494f3fa] [fix](window_funnel) fix wrong result of window_funnel (#38954)
+ Author: TengJianPing <18241664+jacktengg@users.noreply.github.com>
+ Date: Mon Aug 12 16:09:42 2024 +0800
+ 10 files changed, 844 insertions(+), 57 deletions(-)
+picked 4910a5aa72 42
+try to pick c47399cc0d 42
+[branch-3.0 fc1a4763f8] [fix](Nereids) fix insert into table with null literal default value (#39122)
+ Author: LiBinfeng <46676950+LiBinfeng-01@users.noreply.github.com>
+ Date: Mon Aug 12 16:32:44 2024 +0800
+ 6 files changed, 60 insertions(+), 5 deletions(-)
+picked c47399cc0d 43
+try to pick 285f68a098 43
+[branch-3.0 d115a9f96d] [chore](table) Add batch method to get visible version of the olap table (#38949)
+ Author: walter <w41ter.l@gmail.com>
+ Date: Mon Aug 12 18:01:38 2024 +0800
+ 4 files changed, 132 insertions(+), 50 deletions(-)
+picked 285f68a098 44
+try to pick 1ab9e9dcb6 44
+[branch-3.0 21213baa8e] [opt](log) avoid lots of json parse error logs (#39190)
+ Author: camby <cambyzhu@tencent.com>
+ Date: Mon Aug 12 19:46:41 2024 +0800
+ 1 file changed, 2 deletions(-)
+picked 1ab9e9dcb6 45
+try to pick edbe6c659a 45
+[branch-3.0 a99926f8f8] [Fix]Fix wg test failed in cloud mode (#39034)
+ Author: wangbo <wangbo@apache.org>
+ Date: Mon Aug 12 20:11:54 2024 +0800
+ 1 file changed, 7 insertions(+)
+picked edbe6c659a 46
+try to pick dfa0156606 46
+Auto-merging be/src/vec/exec/scan/vfile_scanner.cpp
+[branch-3.0 83aed35acd] [refactor](minor) Delete non-pipeline code (#39156)
+ Author: Gabriel <gabrielleebuaa@gmail.com>
+ Date: Mon Aug 12 20:33:02 2024 +0800
+ 14 files changed, 34 insertions(+), 61 deletions(-)
+picked dfa0156606 47
+try to pick 3040b1aca9 47
+[branch-3.0 6df5fd57ba] [Refactor](config) remove unless config in doris (#39218)
+ Author: HappenLee <happenlee@hotmail.com>
+ Date: Mon Aug 12 21:30:05 2024 +0800
+ 2 files changed, 4 deletions(-)
+picked 3040b1aca9 48
+try to pick ee4d0a7d87 48
+[branch-3.0 6a5e65fe6e] [Fix](JsonReader) Return correct status when parse failed (#39206)
+ Author: lihangyu <15605149486@163.com>
+ Date: Mon Aug 12 22:05:22 2024 +0800
+ 4 files changed, 47 insertions(+), 2 deletions(-)
+ create mode 100644 regression-test/data/load_p0/stream_load/test_json_extract_path_invalid_type.json
+picked ee4d0a7d87 49
+try to pick 3fa4c5f5e0 49
+[branch-3.0 6266743d4c] [enhance](Hdfs) Add bvar latencyrecorder for HDFS operation in Recycler (#39236)
+ Author: AlexYue <yj976240184@gmail.com>
+ Date: Tue Aug 13 10:16:55 2024 +0800
+ 5 files changed, 41 insertions(+), 11 deletions(-)
+picked 3fa4c5f5e0 50
+try to pick 2b46aaa549 50
+[branch-3.0 3de1c942e3] [fix](ES Catalog)Check isArray before parse json to array (#39104)
+ Author: qiye <jianliang5669@gmail.com>
+ Date: Tue Aug 13 10:29:26 2024 +0800
+ 7 files changed, 141 insertions(+), 12 deletions(-)
+ create mode 100755 docker/thirdparties/docker-compose/elasticsearch/scripts/data/composite_type_array_bulk.json
+ create mode 100644 docker/thirdparties/docker-compose/elasticsearch/scripts/index/array_meta_composite_type_array.json
+ create mode 100755 docker/thirdparties/docker-compose/elasticsearch/scripts/index/es6_composite_type_array.json
+ create mode 100644 docker/thirdparties/docker-compose/elasticsearch/scripts/index/es7_composite_type_array.json
+picked 2b46aaa549 51
+try to pick dc713c309c 51
+[branch-3.0 b759df2765] [fix](suites) fix backup cancelled cases (#39204)
+ Author: walter <w41ter.l@gmail.com>
+ Date: Tue Aug 13 10:33:21 2024 +0800
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+picked dc713c309c 52
+try to pick b592f557c7 52
+[branch-3.0 09d61526f1] [opt](nereids) Join related cost calculation formula works well at least 3be num (#39118)
+ Author: minghong <englefly@gmail.com>
+ Date: Tue Aug 13 10:44:10 2024 +0800
+ 1 file changed, 7 insertions(+), 6 deletions(-)
+picked b592f557c7 53
+try to pick dac6bab63d 53
+[branch-3.0 36fc3d56d0] [fix](inverted index)Add exception check when write bkd index (#39248)
+ Author: qiye <jianliang5669@gmail.com>
+ Date: Tue Aug 13 10:45:16 2024 +0800
+ 2 files changed, 72 insertions(+), 19 deletions(-)
+ create mode 100644 regression-test/suites/fault_injection_p0/test_index_bkd_writer_fault_injection.groovy
+picked dac6bab63d 54
+try to pick 5e20101e67 54
+Auto-merging cloud/src/meta-service/meta_service_http.cpp
+[branch-3.0 78d4e688ec] [chore](cloud) Add show_meta_ranges API (#39208)
+ Author: walter <w41ter.l@gmail.com>
+ Date: Tue Aug 13 10:48:38 2024 +0800
+ 4 files changed, 153 insertions(+), 2 deletions(-)
+picked 5e20101e67 55
+try to pick 86fb35af57 55
+[branch-3.0 507ea3af70] [refactor](S3) Refactor S3 file writer's duplicate code into common function (#38771)
+ Author: AlexYue <yj976240184@gmail.com>
+ Date: Tue Aug 13 11:08:45 2024 +0800
+ 2 files changed, 53 insertions(+), 65 deletions(-)
+picked 86fb35af57 56
+try to pick 7a3f3b659c 56
+[branch-3.0 2e843a6be6] [chore](ci) add branch-3.0 required checks (#39250)
+ Author: Dongyang Li <hello_stephen@qq.com>
+ Date: Tue Aug 13 11:10:44 2024 +0800
+ 1 file changed, 27 insertions(+)
+picked 7a3f3b659c 57
+try to pick aa2929e7e6 57
+Auto-merging be/src/vec/aggregate_functions/aggregate_function_percentile.h
+Auto-merging be/src/vec/functions/function_ip.h
+Auto-merging be/src/vec/functions/function_string.cpp
+Auto-merging be/src/vec/functions/function_string.h
+[branch-3.0 a1219d0f27] [opt](assert_cast) Make assert cast do type check in release build by default (#39030)
+ Author: zhiqiang <seuhezhiqiang@163.com>
+ Date: Tue Aug 13 11:49:31 2024 +0800
+ 67 files changed, 632 insertions(+), 325 deletions(-)
+picked aa2929e7e6 58
+try to pick f3dd685645 58
+[branch-3.0 16aa2bd84c] [Improvement](runtime-filter) do not use bloom to replace in_or_bloom when rf need merge (#39147)
+ Author: Pxl <pxl290@qq.com>
+ Date: Tue Aug 13 14:22:56 2024 +0800
+ 6 files changed, 6 deletions(-)
+picked f3dd685645 59
+try to pick 1f87ecf8e0 59
+[branch-3.0 4bc3932c8f] [Fix](function) fix coredump because short of check on randoms arguments (#39255)
+ Author: zclllhhjj <zhaochangle@selectdb.com>
+ Date: Tue Aug 13 15:01:51 2024 +0800
+ 3 files changed, 38 insertions(+), 5 deletions(-)
+picked 1f87ecf8e0 60
+try to pick ea189e9517 60
+[branch-3.0 ec88399d3d] Revert "[chore](ci) add branch-3.0 required checks" (#39294)
+ Author: Dongyang Li <hello_stephen@qq.com>
+ Date: Tue Aug 13 15:30:25 2024 +0800
+ 1 file changed, 27 deletions(-)
+picked ea189e9517 61
+try to pick 8cded12044 61
+[branch-3.0 fe7f195f9d] [refactor](opt) optimize BE code of array_distinct function (#38560)
+ Author: Chester <chesterxu@tencent.com>
+ Date: Tue Aug 13 16:04:36 2024 +0800
+ 1 file changed, 40 insertions(+), 66 deletions(-)
+picked 8cded12044 62
+try to pick b0519d29ef 62
+[branch-3.0 f30529a990] [fix](inverted index) Writing to the inverted index also writes to the file cache. (#39076)
+ Author: zzzxl <33418555+zzzxl1993@users.noreply.github.com>
+ Date: Tue Aug 13 16:38:55 2024 +0800
+ 11 files changed, 162 insertions(+), 21 deletions(-)
+ create mode 100644 regression-test/suites/fault_injection_p0/test_index_writer_file_cache.groovy
+picked b0519d29ef 63
+try to pick ee356e53ae 63
+[branch-3.0 75f9594c4a] [Bug](brpc) fix sync_filter_size/apply_filterv2 has wrong closure (#39155)
+ Author: Pxl <pxl290@qq.com>
+ Date: Tue Aug 13 16:44:02 2024 +0800
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+picked ee356e53ae 64
+try to pick b24cbe294a 64
+[branch-3.0 8e3c030af3] [fix](expr) Enhance SQL Expression Handling by Introducing printSqlInParens to CompoundPredicate (#39064)
+ Author: zy-kkk <zhongyk10@gmail.com>
+ Date: Tue Aug 13 17:14:44 2024 +0800
+ 14 files changed, 127 insertions(+), 86 deletions(-)
+ create mode 100644 regression-test/suites/query_p0/explain/test_compoundpredicate_explain.groovy
+picked b24cbe294a 65
+try to pick a0cf8b97be 65
+Auto-merging be/src/pipeline/pipeline_fragment_context.cpp
+[branch-3.0 1237e32715] [Fix](local merge) Fix local exchange dependencies acquired by local merge (#39238)
+ Author: Gabriel <gabrielleebuaa@gmail.com>
+ Date: Tue Aug 13 17:54:02 2024 +0800
+ 4 files changed, 27 insertions(+), 16 deletions(-)
+picked a0cf8b97be 66
+try to pick a3f4a92856 66
+[branch-3.0 16ae1eba90] [refactor](minor) Init counter in prepare phase (#39287)
+ Author: Gabriel <gabrielleebuaa@gmail.com>
+ Date: Tue Aug 13 17:55:08 2024 +0800
+ 3 files changed, 7 insertions(+), 5 deletions(-)
+picked a3f4a92856 67
+try to pick 2d7683f3bf 67
+[branch-3.0 a2bcbe1335] [fix](routine load) add read lock to fix some concurrent bugs (#39242)
+ Author: hui lai <1353307710@qq.com>
+ Date: Tue Aug 13 18:07:16 2024 +0800
+ 1 file changed, 31 insertions(+), 22 deletions(-)
+picked 2d7683f3bf 68
+try to pick 9d91208086 68
+Auto-merging fe/fe-core/src/main/antlr4/org/apache/doris/nereids/DorisParser.g4
+[branch-3.0 61a30d6dfa] [opt](set operation) INTERSECT should evaluated before others (#39095)
+ Author: morrySnow <101034200+morrySnow@users.noreply.github.com>
+ Date: Tue Aug 13 19:29:13 2024 +0800
+ 2 files changed, 5 insertions(+), 4 deletions(-)
+picked 9d91208086 69
+try to pick af35f40fae 69
+[branch-3.0 9edd639fcb] [enhance](mtmv) mtmv query sql expand star (#36543)
+ Author: zhangdong <493738387@qq.com>
+ Date: Tue Aug 13 19:34:12 2024 +0800
+ 17 files changed, 132 insertions(+), 148 deletions(-)
+ delete mode 100644 fe/fe-core/src/main/java/org/apache/doris/mtmv/EnvInfo.java
+ create mode 100644 regression-test/data/mtmv_p0/test_expand_star_mtmv.out
+ create mode 100644 regression-test/suites/mtmv_p0/test_expand_star_mtmv.groovy
+picked af35f40fae 70
+try to pick 66f624376e 70
+[branch-3.0 f1083ef147] [fix](Nereids) polish function signature search algorithm (#38497)
+ Author: morrySnow <101034200+morrySnow@users.noreply.github.com>
+ Date: Tue Aug 13 19:42:46 2024 +0800
+ 28 files changed, 219 insertions(+), 120 deletions(-)
+ create mode 100644 regression-test/data/nereids_function_p0/type_coercion.out
+ create mode 100644 regression-test/suites/nereids_function_p0/type_coercion.groovy
+picked 66f624376e 71
+try to pick 2d674c800e 71
+Auto-merging be/src/olap/rowset/segment_v2/segment_iterator.cpp
+Auto-merging gensrc/script/doris_builtins_functions.py
+[branch-3.0 fa91fbaef9] [opt](inverted index) Optimize the usage of the `multi_match` function (#39193)
+ Author: zzzxl <33418555+zzzxl1993@users.noreply.github.com>
+ Date: Tue Aug 13 21:28:57 2024 +0800
+ 12 files changed, 123 insertions(+), 201 deletions(-)
+picked 2d674c800e 72
+try to pick 08d0497490 72
+[branch-3.0 6fe8417bb6] [deps](hadoop) update hadoop libs to 3.3.6.2 (#39282)
+ Author: Mingyu Chen <morningman@163.com>
+ Date: Tue Aug 13 23:40:29 2024 +0800
+ 2 files changed, 8 insertions(+), 4 deletions(-)
+picked 08d0497490 73
+try to pick 253b960c4f 73
+[branch-3.0 1af389464c] [Enhancement] add information_schema.table_properties #38745 (#38746)
+ Author: Vallish Pai <vallishpai@gmail.com>
+ Date: Wed Aug 14 06:52:15 2024 +0530
+ 18 files changed, 654 insertions(+), 89 deletions(-)
+ create mode 100644 be/src/exec/schema_scanner/schema_table_properties_scanner.cpp
+ create mode 100644 be/src/exec/schema_scanner/schema_table_properties_scanner.h
+ create mode 100644 regression-test/data/query_p0/system/test_table_properties.out
+ create mode 100644 regression-test/suites/query_p0/system/test_table_properties.groovy
+picked 253b960c4f 74
+try to pick adb21f956e 74
+Auto-merging regression-test/suites/nereids_function_p0/scalar_function/Array.groovy
+CONFLICT (content): Merge conflict in regression-test/suites/nereids_function_p0/scalar_function/Array.groovy
+Auto-merging regression-test/suites/query_p0/sql_functions/array_functions/test_array_functions_by_literal.groovy
+CONFLICT (content): Merge conflict in regression-test/suites/query_p0/sql_functions/array_functions/test_array_functions_by_literal.groovy
+error: could not apply adb21f956e... [fix](array_apply) array_apply replace logFatal with throw exception  (#39105)
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+failed to pick adb21f956e
+try to pick 1acbbbdd8e 75
+[branch-3.0 b4a8c6f5fe] [improve](ip)improve data type ip for rowstore and trycatch in segment_flusher (#39258)
+ Author: amory <wangqiannan@selectdb.com>
+ Date: Wed Aug 14 09:57:02 2024 +0800
+ 5 files changed, 47 insertions(+), 2 deletions(-)
+ create mode 100644 regression-test/data/mv_p0/test_row_store/test_row_store.out
+picked 1acbbbdd8e 76
+try to pick b871a57672 76
+[branch-3.0 3de7a76cdd] [fix](compile) failed on MacOS because size_t is not uint64_t on MacOS (#39296)
+ Author: morrySnow <101034200+morrySnow@users.noreply.github.com>
+ Date: Wed Aug 14 10:26:13 2024 +0800
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+picked b871a57672 77
+try to pick 14304497a2 77
+[branch-3.0 3da9d7d07e] [Fix](nereids) fix condition function partition prune (#39298)
+ Author: feiniaofeiafei <53502832+feiniaofeiafei@users.noreply.github.com>
+ Date: Wed Aug 14 10:43:42 2024 +0800
+ 2 files changed, 52 insertions(+), 15 deletions(-)
+ create mode 100644 regression-test/suites/nereids_rules_p0/partition_prune/test_condition_function.groovy
+picked 14304497a2 78
+try to pick b949929276 78
+[branch-3.0 e51a2e2378] [fix](function) fix error return type in corr(float32,float32)  (#39251)
+ Author: Mryange <59914473+Mryange@users.noreply.github.com>
+ Date: Wed Aug 14 11:53:34 2024 +0800
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+picked b949929276 79
+try to pick ea9682aa31 79
+[branch-3.0 f37e314f34] [fix](function) Results for stddev with nan and inf are unstable. (#38866)
+ Author: Mryange <59914473+Mryange@users.noreply.github.com>
+ Date: Wed Aug 14 11:54:17 2024 +0800
+ 3 files changed, 102 insertions(+), 2 deletions(-)
+ create mode 100644 regression-test/data/nereids_p0/aggregate/aggregate_stddev_over_range.out
+ create mode 100644 regression-test/suites/nereids_p0/aggregate/aggregate_stddev_over_range.groovy
+picked ea9682aa31 80
+try to pick 96afc5e8be 80
+[branch-3.0 b8c9cacc32] [fix](function)timediff with now function  causes a error signature (#39322)
+ Author: Mryange <59914473+Mryange@users.noreply.github.com>
+ Date: Wed Aug 14 12:04:20 2024 +0800
+ 3 files changed, 8 insertions(+), 18 deletions(-)
+picked 96afc5e8be 81
+try to pick 15f07b96c6 81
+[branch-3.0 4fe2885494] [chore](test) rename conflict name under same database in test cases (#39243)
+ Author: morrySnow <101034200+morrySnow@users.noreply.github.com>
+ Date: Wed Aug 14 12:20:17 2024 +0800
+ 2 files changed, 7 insertions(+), 6 deletions(-)
+picked 15f07b96c6 82
+try to pick b2ef07266b 82
+Auto-merging be/src/exprs/runtime_filter.cpp
+Auto-merging be/src/olap/rowset/segment_v2/segment_iterator.cpp
+Auto-merging be/src/vec/exec/format/orc/vorc_reader.cpp
+[branch-3.0 7e7ee67ce6] [Improvement](runtime-filter) adjust always true judge rule of runtime filter apply (#38300)
+ Author: Pxl <pxl290@qq.com>
+ Date: Wed Aug 14 14:08:10 2024 +0800
+ 16 files changed, 188 insertions(+), 122 deletions(-)
+picked b2ef07266b 83
+try to pick c51e786d95 83
+[branch-3.0 b01a52ba4c] [fix](Nereids) support implicit cast ip types to string (#39318)
+ Author: morrySnow <101034200+morrySnow@users.noreply.github.com>
+ Date: Wed Aug 14 14:27:32 2024 +0800
+ 2 files changed, 23 insertions(+)
+picked c51e786d95 84
+try to pick 8844e03bbd 84
+[branch-3.0 a6adb47b27] [opt](mtmv) partition rollup support week and quarter (#39286)
+ Author: zhangdong <493738387@qq.com>
+ Date: Wed Aug 14 14:56:38 2024 +0800
+ 3 files changed, 103 insertions(+), 1 deletion(-)
+picked 8844e03bbd 85
+try to pick d9c8ff041c 85
+[branch-3.0 07dbee4020] [fix](cloud) fix routine load job progress cache incorrect in cloud mode (#39313)
+ Author: hui lai <1353307710@qq.com>
+ Date: Wed Aug 14 15:32:39 2024 +0800
+ 1 file changed, 21 insertions(+), 2 deletions(-)
+picked d9c8ff041c 86
+try to pick 181c202bf6 86
+[branch-3.0 649922a97a] [Fix](cloud) CloudStorageEngine should wait compaction task done when stoping it (#39302)
+ Author: huanghaibin <284824253@qq.com>
+ Date: Wed Aug 14 15:35:37 2024 +0800
+ 1 file changed, 8 insertions(+)
+picked 181c202bf6 87
+try to pick a99812c485 87
+[branch-3.0 67961b006e] [improve](move-memtable) reuse connection in load_stream_stub (#39231)
+ Author: Kaijie Chen <ckj@apache.org>
+ Date: Wed Aug 14 16:25:19 2024 +0800
+ 7 files changed, 47 insertions(+), 15 deletions(-)
+picked a99812c485 88
+try to pick 7fe87dc7f5 88
+[branch-3.0 30fdb4cfe4] [fix](routine load) should update progress before handle transaction state transform (#39311)
+ Author: hui lai <1353307710@qq.com>
+ Date: Wed Aug 14 16:32:07 2024 +0800
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+picked 7fe87dc7f5 89
+try to pick 1c1c4e8efb 89
+Auto-merging fe/fe-core/src/main/antlr4/org/apache/doris/nereids/DorisParser.g4
+[branch-3.0 da074c7da8] [opt](Nereids) add truncate statement and update set statement (#39312)
+ Author: morrySnow <101034200+morrySnow@users.noreply.github.com>
+ Date: Wed Aug 14 16:43:06 2024 +0800
+ 5 files changed, 116 insertions(+), 13 deletions(-)
+picked 1c1c4e8efb 90
+try to pick 0a98217261 90
+[branch-3.0 a6b96c70c9] [opt](memory) BE memory info compatible with CgroupV2 (#39256)
+ Author: Xinyi Zou <zouxinyi02@gmail.com>
+ Date: Wed Aug 14 17:00:37 2024 +0800
+ 9 files changed, 512 insertions(+), 190 deletions(-)
+ create mode 100644 be/src/common/cgroup_memory_ctl.cpp
+ create mode 100644 be/src/common/cgroup_memory_ctl.h
+ create mode 100644 be/test/util/test_data/memory.limit_in_bytes
+ create mode 100644 be/test/util/test_data/memory.stat
+picked 0a98217261 91
+try to pick 109dba687f 91
+[branch-3.0 cbec39fe94] [enhance](mtmv)Improve the performance of obtaining partition/table versions (#39301)
+ Author: zhangdong <493738387@qq.com>
+ Date: Wed Aug 14 17:20:59 2024 +0800
+ 11 files changed, 259 insertions(+), 89 deletions(-)
+ create mode 100644 fe/fe-core/src/main/java/org/apache/doris/mtmv/MTMVBaseVersions.java
+ create mode 100644 fe/fe-core/src/main/java/org/apache/doris/mtmv/MTMVRefreshContext.java
+picked 109dba687f 92
+try to pick 7c88841466 92
+[branch-3.0 b03dbbb756] [Chore](aggregation) remove useless code for aggregation function Covar (#39309)
+ Author: Uniqueyou <134280716+wyxxxcat@users.noreply.github.com>
+ Date: Wed Aug 14 17:28:33 2024 +0800
+ 2 files changed, 6 insertions(+), 118 deletions(-)
+picked 7c88841466 93
+try to pick 267a084aa9 93
+[branch-3.0 4c8235d304] [fix](protocol) CLIENT_MULTI_STATEMENTS not used actually (#39308)
+ Author: camby <cambyzhu@tencent.com>
+ Date: Wed Aug 14 17:36:47 2024 +0800
+ 3 files changed, 18 insertions(+), 1 deletion(-)
+picked 267a084aa9 94
+try to pick 837e7be3f6 94
+Auto-merging regression-test/suites/schema_change_p0/test_dup_schema_value_modify3.groovy
+Auto-merging regression-test/suites/schema_change_p0/test_dup_schema_value_modify4.groovy
+[branch-3.0 29988c4665] [improve](nestedtype) support schema change for nested type (#39210)
+ Author: amory <wangqiannan@selectdb.com>
+ Date: Wed Aug 14 18:34:30 2024 +0800
+ 6 files changed, 247 insertions(+), 177 deletions(-)
+ create mode 100644 regression-test/data/datatype_p0/nested_types/ddl/create_nestedtypes_with_schemachange.out
+ create mode 100644 regression-test/suites/datatype_p0/nested_types/ddl/create_nestedtypes_with_schemachange.groovy
+picked 837e7be3f6 95
+try to pick 661fe4a0d9 95
+[branch-3.0 ccff40e8df] [testcase](auto-partition) test auto partition with altering property of table (#39260)
+ Author: zclllhhjj <zhaochangle@selectdb.com>
+ Date: Wed Aug 14 19:21:31 2024 +0800
+ 1 file changed, 20 insertions(+)
+picked 661fe4a0d9 96
+try to pick 977ae1b535 96
+[branch-3.0 1ba5e9257c] Revert "[fix] (scan) push down expr in agg and mor" (#39212)
+ Author: Sun Chenyang <csun5285@gmail.com>
+ Date: Wed Aug 14 19:55:18 2024 +0800
+ 8 files changed, 6 insertions(+), 126 deletions(-)
+ delete mode 100644 regression-test/data/inverted_index_p0/test_agg_table_with_inverted_index.out
+ delete mode 100644 regression-test/data/inverted_index_p0/test_mor_table_with_inverted_index.out
+ delete mode 100644 regression-test/suites/inverted_index_p0/test_agg_table_with_inverted_index.groovy
+ delete mode 100644 regression-test/suites/inverted_index_p0/test_mor_table_with_inverted_index.groovy
+picked 977ae1b535 97
+try to pick 4e326e5f49 97
+[branch-3.0 805a0d587a] [test](inverted index) do not run test_index_lowercase_fault_injection in cloud mode (#39235)
+ Author: zzzxl <33418555+zzzxl1993@users.noreply.github.com>
+ Date: Wed Aug 14 20:12:32 2024 +0800
+ 1 file changed, 4 insertions(+)
+picked 4e326e5f49 98
+try to pick 0cba9ba8ba 98
+Auto-merging fe/pom.xml
+[branch-3.0 e80374e511] [improvement](jdbc catalog) Compatible with ojdbc6 by adding version check (#39341)
+ Author: zy-kkk <zhongyk10@gmail.com>
+ Date: Wed Aug 14 21:14:40 2024 +0800
+ 6 files changed, 133 insertions(+), 38 deletions(-)
+picked 0cba9ba8ba 99
+try to pick cd39d6b4f1 99
+Auto-merging regression-test/conf/regression-conf.groovy
+Auto-merging regression-test/pipeline/external/conf/regression-conf.groovy
+[branch-3.0 662cd1a214] [test](jdbc catalog) add oceanbase ce jdbc catalog test (#34972)
+ Author: zy-kkk <zhongyk10@gmail.com>
+ Date: Wed Aug 14 21:53:56 2024 +0800
+ 11 files changed, 252 insertions(+), 3 deletions(-)
+ create mode 100644 docker/thirdparties/docker-compose/oceanbase/init/01-drop-db.sql
+ create mode 100644 docker/thirdparties/docker-compose/oceanbase/init/02-create-db.sql
+ create mode 100644 docker/thirdparties/docker-compose/oceanbase/init/03-create-table.sql
+ create mode 100644 docker/thirdparties/docker-compose/oceanbase/init/04-insert.sql
+ create mode 100644 docker/thirdparties/docker-compose/oceanbase/oceanbase.env
+ create mode 100644 docker/thirdparties/docker-compose/oceanbase/oceanbase.yaml.tpl
+ create mode 100644 regression-test/data/external_table_p0/jdbc/test_oceanbase_jdbc_catalog.out
+ create mode 100644 regression-test/suites/external_table_p0/jdbc/test_oceanbase_jdbc_catalog.groovy
+picked cd39d6b4f1 100
+try to pick 0cc438c2af 100
+Auto-merging be/src/exprs/bloom_filter_func.h
+[branch-3.0 51ab1cbad5] [Bug](runtime-filter) set inited to true on BloomFilterFuncBase::assign (#39335)
+ Author: Pxl <pxl290@qq.com>
+ Date: Wed Aug 14 22:13:19 2024 +0800
+ 1 file changed, 1 insertion(+)
+picked 0cc438c2af 101
+try to pick e70e91bb51 101
+[branch-3.0 1575053d20] [improvement](external catalog)Optimize the process of refreshing catalog (#39205)
+ Author: wuwenchi <wuwenchihdu@hotmail.com>
+ Date: Wed Aug 14 22:43:17 2024 +0800
+ 6 files changed, 19 insertions(+), 16 deletions(-)
+picked e70e91bb51 102
+try to pick aaf7a96ee6 102
+[branch-3.0 4739120779] [fix](nullif) revert nullif signature change by #38497 (#39342)
+ Author: morrySnow <101034200+morrySnow@users.noreply.github.com>
+ Date: Wed Aug 14 23:12:04 2024 +0800
+ 3 files changed, 37 insertions(+), 3 deletions(-)
+picked aaf7a96ee6 103
+try to pick 0dca9eff22 103
+Auto-merging fe/fe-core/src/main/cup/sql_parser.cup
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/datasource/InternalCatalog.java
+[branch-3.0 0107e95fe4] [Enhancement](alter) support add partitions in batch (#37114)
+ Author: lw112 <131352377+felixwluo@users.noreply.github.com>
+ Date: Wed Aug 14 23:20:41 2024 +0800
+ 6 files changed, 226 insertions(+), 1 deletion(-)
+ create mode 100644 fe/fe-core/src/main/java/org/apache/doris/analysis/AlterMultiPartitionClause.java
+ create mode 100644 regression-test/suites/alter_p0/test_alter_add_multi_partition.groovy
+picked 0dca9eff22 104
+try to pick 51d0dfd58e 104
+[branch-3.0 2e20d94d82] [chore](recycler) log num deleted objects (#39353)
+ Author: walter <w41ter.l@gmail.com>
+ Date: Wed Aug 14 23:22:30 2024 +0800
+ 3 files changed, 19 insertions(+), 13 deletions(-)
+picked 51d0dfd58e 105
+try to pick 5b7278fea0 105
+[branch-3.0 c2c5182a9a] [opt](mtmv) support creating views based on Hive tables with the LIMIT (#38812)
+ Author: elon-X <34712973+elon-X@users.noreply.github.com>
+ Date: Wed Aug 14 23:27:12 2024 +0800
+ 2 files changed, 21 insertions(+), 1 deletion(-)
+picked 5b7278fea0 106
+try to pick 15095333af 106
+[branch-3.0 0cf14cd7b3] [fix](file cache) Fix data race of rowset meta when download segment data (#39361)
+ Author: Gavin Chou <gavineaglechou@gmail.com>
+ Date: Thu Aug 15 09:31:31 2024 +0800
+ 3 files changed, 22 insertions(+), 14 deletions(-)
+picked 15095333af 107
+try to pick d0d3ad0dd3 107
+[branch-3.0 a73fb9f9d1] [fix](group commit) fix group commit core if be inject FragmentMgr.exec_plan_fragment.failed (#39339)
+ Author: meiyi <myimeiyi@gmail.com>
+ Date: Thu Aug 15 09:36:27 2024 +0800
+ 2 files changed, 58 insertions(+), 2 deletions(-)
+ create mode 100644 regression-test/suites/insert_p0/group_commit/test_group_commit_error.groovy
+picked d0d3ad0dd3 108
+try to pick a67429de1e 108
+[branch-3.0 2801b67754] [fix](nereids)fix unstable test case (#39244)
+ Author: starocean999 <40539150+starocean999@users.noreply.github.com>
+ Date: Thu Aug 15 09:49:19 2024 +0800
+ 1 file changed, 4 insertions(+), 49 deletions(-)
+picked a67429de1e 109
+try to pick 520c8538fd 109
+[branch-3.0 3293c762ec] [fix](regress-test) fix presto dialect regression-test case (#39326)
+ Author: 苏小刚 <suxiaogang223@icloud.com>
+ Date: Thu Aug 15 10:23:52 2024 +0800
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+picked 520c8538fd 110
+try to pick dedf15c6df 110
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/catalog/BuiltinScalarFunctions.java
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/visitor/ScalarFunctionVisitor.java
+[branch-3.0 a81c8e6994] [fix])(function) add function regexp_extract_or_null (#38296)
+ Author: 苏小刚 <suxiaogang223@icloud.com>
+ Date: Thu Aug 15 10:24:12 2024 +0800
+ 7 files changed, 136 insertions(+), 6 deletions(-)
+ create mode 100644 fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/RegexpExtractOrNull.java
+picked dedf15c6df 111
+try to pick 6b04d34277 111
+[branch-3.0 25cf8cdd6c] [Fix](regression) Fix flaky case in test_stream_load_2pc (#39257)
+ Author: Xin Liao <liaoxinbit@126.com>
+ Date: Thu Aug 15 11:14:56 2024 +0800
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+picked 6b04d34277 112
+try to pick 8ac917b66a 112
+[branch-3.0 6ad1791237] [chore](ci) only add doing label on master pr (#39297)
+ Author: Dongyang Li <hello_stephen@qq.com>
+ Date: Thu Aug 15 11:24:25 2024 +0800
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+picked 8ac917b66a 113
+try to pick 9c21e11846 113
+[branch-3.0 9cab50040f] [ci](opt) support skil buildall (#38616)
+ Author: Dongyang Li <hello_stephen@qq.com>
+ Date: Thu Aug 15 11:24:44 2024 +0800
+ 1 file changed, 31 insertions(+), 2 deletions(-)
+picked 9c21e11846 114
+try to pick 7caddd039f 114
+[branch-3.0 de838c4d12] [fix](statistics)Fix update rows bug. (#39368)
+ Author: Jibing-Li <64681310+Jibing-Li@users.noreply.github.com>
+ Date: Thu Aug 15 11:34:37 2024 +0800
+ 1 file changed, 6 insertions(+), 9 deletions(-)
+picked 7caddd039f 115
+try to pick 196e343733 115
+[branch-3.0 b1cb62c183] [improve](ip) update ip for bloom_filter index (#39253)
+ Author: amory <wangqiannan@selectdb.com>
+ Date: Thu Aug 15 12:07:42 2024 +0800
+ 3 files changed, 81 insertions(+), 1 deletion(-)
+ create mode 100644 regression-test/data/bloom_filter_p0/test_bloom_filter_hit.out
+picked 196e343733 116
+try to pick a55b61c3b2 116
+[branch-3.0 db853add41] [deps](hadoop) update hadoop to 3.3.6.3 (#39376)
+ Author: Mingyu Chen <morningman@163.com>
+ Date: Thu Aug 15 12:39:02 2024 +0800
+ 2 files changed, 8 insertions(+), 4 deletions(-)
+picked a55b61c3b2 117
+try to pick c6957d6c6e 117
+[branch-3.0 37eee1cf8a] [fix](cgroup) Fix cgroup compatibility with MacOS (#39398)
+ Author: Xinyi Zou <zouxinyi02@gmail.com>
+ Date: Thu Aug 15 14:50:24 2024 +0800
+ 2 files changed, 10 insertions(+), 3 deletions(-)
+picked c6957d6c6e 118
+try to pick b2b15d38a2 118
+[branch-3.0 1011a2b205] [fix](http) fix http url with incorrect character notation (#38420)
+ Author: Sun Chenyang <csun5285@gmail.com>
+ Date: Thu Aug 15 15:04:05 2024 +0800
+ 6 files changed, 179 insertions(+), 34 deletions(-)
+ create mode 100644 regression-test/suites/load_p2/test_single_replica_load.groovy
+picked b2b15d38a2 119
+try to pick e2c9280653 119
+[branch-3.0 907a4f60f1] [fix](stream load) do not throw exception but skip record when can not find database (#39360)
+ Author: hui lai <1353307710@qq.com>
+ Date: Thu Aug 15 16:19:59 2024 +0800
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+picked e2c9280653 120
+try to pick b985897126 120
+[branch-3.0 f1ba7622a0] [regression](test) adjust max_failure_num to 50 (#39420)
+ Author: Dongyang Li <hello_stephen@qq.com>
+ Date: Thu Aug 15 16:30:54 2024 +0800
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+picked b985897126 121
+try to pick 83be799fb6 121
+Auto-merging fe/fe-core/src/main/antlr4/org/apache/doris/nereids/DorisLexer.g4
+Auto-merging fe/fe-core/src/main/antlr4/org/apache/doris/nereids/DorisParser.g4
+Auto-merging fe/fe-core/src/test/java/org/apache/doris/nereids/parser/NereidsParserTest.java
+[branch-3.0 43d2c25858] [opt](Nereids) add switch / unset / kill / desc statement syntax (#39359)
+ Author: morrySnow <101034200+morrySnow@users.noreply.github.com>
+ Date: Thu Aug 15 16:37:01 2024 +0800
+ 8 files changed, 111 insertions(+), 17 deletions(-)
+picked 83be799fb6 122
+try to pick 237fca2f40 122
+[branch-3.0 ea059be831] [improve](array) forbid create inverted index with parser for array and add cases for write correctness check  (#39062)
+ Author: amory <wangqiannan@selectdb.com>
+ Date: Thu Aug 15 16:38:23 2024 +0800
+ 48 files changed, 379 insertions(+), 82 deletions(-)
+ create mode 100644 regression-test/data/inverted_index_p0/test_arrayInvertedIdx_profile.out
+ create mode 100644 regression-test/suites/inverted_index_p0/test_arrayInvertedIdx_profile.groovy
+ create mode 100644 regression-test/suites/inverted_index_p0/test_array_inverted_index/test_array_index_parser.groovy
+ create mode 100644 regression-test/suites/inverted_index_p0/test_array_inverted_index/test_array_index_write.groovy
+picked 237fca2f40 123
+try to pick 2fedcf145f 123
+[branch-3.0 a1d4b8d269] [chore](cloud) Add recycle tablet key log (#39405)
+ Author: walter <w41ter.l@gmail.com>
+ Date: Thu Aug 15 17:16:13 2024 +0800
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+picked 2fedcf145f 124
+try to pick 76a887bee4 124
+[branch-3.0 3ca955cbb5] [fix](function) avoid calculating sqrt of negative in agg function CORR (#39324)
+ Author: zclllhhjj <zhaochangle@selectdb.com>
+ Date: Thu Aug 15 17:50:24 2024 +0800
+ 3 files changed, 9 insertions(+), 2 deletions(-)
+picked 76a887bee4 125
+try to pick c9f2e03e89 125
+On branch branch-3.0
+Your branch is ahead of 'origin/branch-3.0' by 100 commits.
+  (use "git push" to publish your local commits)
+
+You are currently cherry-picking commit c9f2e03e89.
+  (all conflicts fixed: run "git cherry-pick --continue")
+  (use "git cherry-pick --skip" to skip this patch)
+  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   be/src/apache-orc (untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	0001-fix-autoinc-avoid-duplicated-auto-inc-when-role-of-f.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets-34003.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets.patch
+	0001-fix-oom-avoid-oom-when-a-lot-of-tablets-fail-on-load.patch
+	0001-fix.patch
+	0001-revert-improvement-mv-Support-to-use-cast-when-creat.patch
+	1.7.0.tar.gz
+	2.1.5commitlog
+	23092.patch.1
+	24639.patch.1
+	34143.patch
+	36311.patch
+	36349.patch
+	37533.patch
+	37643.patch
+	37762.patch
+	37848.patch
+	37855.patch
+	39288.patch
+	39338.patch
+	39373.patch
+	39429.patch
+	[jar]
+	a.out
+	backupmeta.patch
+	be.tar.gz
+	be/src/clucene.rej
+	be/src/olap/merger.cpp.orig
+	be/src/olap/merger.cpp.rej
+	be/src/olap/rowset/beta_rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.rej
+	be/src/olap/rowset/rowset.h.orig
+	be/src/olap/storage_engine.cpp.orig
+	be/src/olap/tablet.cpp.orig
+	be/src/olap/tablet.cpp.rej
+	be/src/olap/tablet.h.orig
+	be/src/olap/tablet_manager.cpp.orig
+	be/src/vec/sink/:wq
+	binary_diff
+	brpc-1.7.0/
+	build.sh.rej
+	c83e40928762ff2bbd99966ef5b82b8f216fd60f.patch
+	callonce.cpp
+	catch_pipeline.patch
+	check_and_label_prs.sh
+	cherry-pick.sh
+	cherry_pick.result
+	cherry_pick_non_feature.sh
+	commit_not_in_3.0
+	commit_not_in_3.0_0812.txt
+	commit_not_in_3.0_author_order.0812
+	commit_with_author
+	commitlog
+	commitlog_3.0_0722
+	common.sh
+	compare_3.0_with_master_and_2.1.sh
+	compare_commit.logging
+	compare_commit.result
+	conflict_3.0_commits.txt
+	conflict_new_commits.txt
+	diff_files
+	doris-2.0.5-rc02.tar.gz
+	doris-meta.tar.gz
+	doris-thirdparty-prebuilt-linux-x86_64.tar
+	doris_be.tar.gz
+	fe.out
+	fe.tar.gz
+	fe.ut
+	fe.ut.out
+	fe/ajcore.20240620.115138.899.txt
+	fe/fe-core/kafka_datasource_properties
+	fe/fe-core/null/
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/backup/RestoreJob.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/MTMV.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/OlapTable.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils134.java.orig
+	fe/fe-core/test_datasource_properties
+	file_new.txt
+	fix.sh
+	get_prs_by_label.py
+	ignored_pr_by_3.0.txt
+	jdk_env.sh
+	label_3.0.x_for_p0.sh
+	label_commits_with_label.sh
+	label_conflict.logging
+	label_conflict_prs.sh
+	label_master.result
+	label_pr_in_master.logging
+	label_pr_with_3.0.x.sh
+	label_pr_with_3.0.x_in_master.sh
+	meta_check.py
+	not_in_3.0_prs
+	output.txt
+	part3
+	patch
+	patch.gsonutil
+	pick3.0-07-19
+	pick_history_0817.txt
+	regression-test/data/compress_p1/
+	release_output.tar.gz
+	release_output/
+	simple-file.binary
+	test.cpp
+	test_env/
+	thirdparty.master/
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar.xz.1
+	thirdparty/libevent-enableThe previous cherry-pick is now empty, possibly due to conflict resolution.
+If you wish to commit it anyway, use:
+
+    git commit --allow-empty
+
+Otherwise, please use 'git cherry-pick --skip'
+_keepalive_accepted_socket.patch
+	yyq.beut
+	yyq.compare.0802
+	yyq.compare.0804
+	yyq.debug
+	yyq.feout
+	yyq.label_master
+	yyq.label_master.dry_run
+	yyq.out
+	yyq.ut
+	yyq/
+	zoneinfo/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+failed to pick c9f2e03e89
+try to pick ef8e3c81d4 126
+[branch-3.0 729025a99f] [chore](cloud) Log rowset value when txn value size exceeds the limit (#39388)
+ Author: walter <w41ter.l@gmail.com>
+ Date: Thu Aug 15 18:26:56 2024 +0800
+ 2 files changed, 52 insertions(+), 1 deletion(-)
+picked ef8e3c81d4 127
+try to pick bd07f89bd1 127
+Auto-merging regression-test/data/nereids_p0/hint/test_leading.out
+[branch-3.0 888ab3bb24] [fix](nereids) fix distribute expr list (#39148)
+ Author: xzj7019 <131111794+xzj7019@users.noreply.github.com>
+ Date: Thu Aug 15 18:35:16 2024 +0800
+ 14 files changed, 294 insertions(+), 118 deletions(-)
+ create mode 100644 regression-test/suites/nereids_syntax_p0/distribute/distribution_expr.groovy
+picked bd07f89bd1 128
+try to pick 1deab37312 128
+[branch-3.0 3be198fcb8] [Fix](Row store) fix row store with invalid json string in variant type (#39394)
+ Author: lihangyu <15605149486@163.com>
+ Date: Thu Aug 15 18:51:26 2024 +0800
+ 3 files changed, 40 insertions(+), 8 deletions(-)
+picked 1deab37312 129
+try to pick 7c230d8b7c 129
+[branch-3.0 ce34258859] [test](inverted index) add test for need read data opt (#38261)
+ Author: Sun Chenyang <csun5285@gmail.com>
+ Date: Thu Aug 15 19:34:03 2024 +0800
+ 2 files changed, 1904 insertions(+)
+ create mode 100644 regression-test/data/inverted_index_p1/need_read_data/documents-1000.json
+ create mode 100644 regression-test/suites/inverted_index_p1/need_read_data/test_dup_table_inverted_index.groovy
+picked 7c230d8b7c 130
+try to pick ffaca6c096 130
+[branch-3.0 02303b935d] [test](statistics)Add delete test case for statistics. (#39143)
+ Author: Jibing-Li <64681310+Jibing-Li@users.noreply.github.com>
+ Date: Thu Aug 15 19:37:37 2024 +0800
+ 3 files changed, 139 insertions(+)
+ create mode 100644 regression-test/data/statistics/delete
+ create mode 100644 regression-test/data/statistics/load
+ create mode 100644 regression-test/suites/statistics/test_delete_data_analyze.groovy
+picked ffaca6c096 131
+try to pick 90d92e99b8 131
+[branch-3.0 238fe535b4] [fix](group commit) fix group commit insert rpc may stuck (#39391)
+ Author: meiyi <myimeiyi@gmail.com>
+ Date: Thu Aug 15 19:49:03 2024 +0800
+ 4 files changed, 48 insertions(+), 7 deletions(-)
+picked 90d92e99b8 132
+try to pick be0e627c7c 132
+[branch-3.0 55519d3e7b] [Fix](regression) fix unstable case `test_schema_change_unique_mow` (#39315)
+ Author: bobhan1 <bh2444151092@outlook.com>
+ Date: Thu Aug 15 20:14:01 2024 +0800
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+picked be0e627c7c 133
+try to pick e4349948d7 133
+[branch-3.0 e5eca21ce4] [enhancement](schema-change) Record detailed fail reason for schema change tasks (#39351)
+ Author: Siyang Tang <82279870+TangSiyang2001@users.noreply.github.com>
+ Date: Thu Aug 15 20:21:28 2024 +0800
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+picked e4349948d7 134
+try to pick 3df4b7fc26 134
+Auto-merging fe/fe-core/src/main/antlr4/org/apache/doris/nereids/DorisParser.g4
+[branch-3.0 e9f15876ac] [opt](Nereids) support parse sql with semicolon at beginning (#39399)
+ Author: morrySnow <101034200+morrySnow@users.noreply.github.com>
+ Date: Thu Aug 15 20:33:50 2024 +0800
+ 2 files changed, 22 insertions(+), 2 deletions(-)
+ create mode 100644 regression-test/suites/nereids_syntax_p0/test_semicolon_at_begin.groovy
+picked 3df4b7fc26 135
+try to pick 8678ec1856 135
+[branch-3.0 02e93f41a9] [Fix](tools) Fix wrong tpcds tools instructions (#39001)
+ Author: zclllhhjj <zhaochangle@selectdb.com>
+ Date: Thu Aug 15 20:39:39 2024 +0800
+ 3 files changed, 27 insertions(+), 31 deletions(-)
+picked 8678ec1856 136
+try to pick 755221b96a 136
+[branch-3.0 e11c7ec3eb] [opt](Nereids) polish aggregate function signature matching (#39352)
+ Author: morrySnow <101034200+morrySnow@users.noreply.github.com>
+ Date: Thu Aug 15 20:44:53 2024 +0800
+ 18 files changed, 126 insertions(+), 111 deletions(-)
+picked 755221b96a 137
+try to pick ae27e92565 137
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/nereids/parser/LogicalPlanBuilder.java
+[branch-3.0 da3b0bd042] [fix](Nereids) npe when delete with cte and without using (#39379)
+ Author: morrySnow <101034200+morrySnow@users.noreply.github.com>
+ Date: Thu Aug 15 20:45:52 2024 +0800
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+picked ae27e92565 138
+try to pick b1eb70d727 138
+[branch-3.0 bbf97723bb] [fix](delete) Incorrect status handling in CloudDeleteTask::execute() (#39428)
+ Author: Gavin Chou <gavineaglechou@gmail.com>
+ Date: Thu Aug 15 21:22:37 2024 +0800
+ 3 files changed, 9 insertions(+), 4 deletions(-)
+picked b1eb70d727 139
+try to pick 982dcf4002 139
+Auto-merging fe/fe-core/src/main/cup/sql_parser.cup
+[branch-3.0 c9ab71a784] [improvement](statistics)Support drop cached stats. (#39367)
+ Author: Jibing-Li <64681310+Jibing-Li@users.noreply.github.com>
+ Date: Thu Aug 15 22:05:00 2024 +0800
+ 5 files changed, 215 insertions(+)
+ create mode 100644 fe/fe-core/src/main/java/org/apache/doris/analysis/DropCachedStatsStmt.java
+ create mode 100644 regression-test/suites/statistics/test_drop_cached_stats.groovy
+picked 982dcf4002 140
+try to pick 4f16bf6399 140
+[branch-3.0 fa89b742b1] [fix] (inverted index) remove tmp columns in block (#39369)
+ Author: Sun Chenyang <csun5285@gmail.com>
+ Date: Thu Aug 15 22:10:34 2024 +0800
+ 6 files changed, 33 insertions(+), 28 deletions(-)
+picked 4f16bf6399 141
+try to pick ce4c6d009b 141
+Auto-merging fe/fe-core/pom.xml
+CONFLICT (content): Merge conflict in fe/fe-core/pom.xml
+Auto-merging fe/pom.xml
+error: could not apply ce4c6d009b... [opt](thirdparty) upgrade arrow to 17.0.0 (#38572)
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+failed to pick ce4c6d009b
+try to pick e375fc1233 142
+Auto-merging be/src/vec/exec/scan/vfile_scanner.cpp
+[branch-3.0 c07f97252f] [Fix](load) Fix the incorrect src value printed in the error log when strict mode is true (#39447)
+ Author: Xin Liao <liaoxinbit@126.com>
+ Date: Fri Aug 16 09:38:38 2024 +0800
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+picked e375fc1233 143
+try to pick aa30b5a611 143
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/service/FrontendServiceImpl.java
+Auto-merging gensrc/thrift/FrontendService.thrift
+[branch-3.0 0131b2a24f] [fix](catalog) set timeout for split fetch (#39346)
+ Author: Mingyu Chen <morningman@163.com>
+ Date: Fri Aug 16 09:40:57 2024 +0800
+ 4 files changed, 18 insertions(+), 3 deletions(-)
+picked aa30b5a611 144
+try to pick e350ff52d5 144
+Auto-merging regression-test/pipeline/external/conf/regression-conf.groovy
+[branch-3.0 245880455b] [Improvement](multi-catalog)support max compute complex type parse (#39259)
+ Author: slothever <18522955+wsjz@users.noreply.github.com>
+ Date: Fri Aug 16 09:44:54 2024 +0800
+ 5 files changed, 110 insertions(+), 6 deletions(-)
+ create mode 100644 regression-test/data/external_table_p0/mc/test_max_compute_complex_type.out
+ create mode 100644 regression-test/suites/external_table_p0/mc/test_max_compute_complex_type.groovy
+picked e350ff52d5 145
+try to pick d189b8a96d 145
+[branch-3.0 1ac05ad5a4] [opt](binlog) Log table rename when reply (#38034)
+ Author: lsy3993 <110876560+lsy3993@users.noreply.github.com>
+ Date: Fri Aug 16 09:59:12 2024 +0800
+ 1 file changed, 3 insertions(+)
+picked d189b8a96d 146
+try to pick 0c0ef271da 146
+[branch-3.0 8fe4ba275f] [Improvement]Support cgroup v2 for workload group (#39374)
+ Author: wangbo <wangbo@apache.org>
+ Date: Fri Aug 16 10:08:09 2024 +0800
+ 8 files changed, 355 insertions(+), 145 deletions(-)
+picked 0c0ef271da 147
+try to pick 8befc47c1c 147
+[branch-3.0 8ac9851269] [enhancement][regression] remove binary data in regression test output file (#39364)
+ Author: zhannngchen <48427519+zhannngchen@users.noreply.github.com>
+ Date: Fri Aug 16 10:22:06 2024 +0800
+ 10 files changed, 50 insertions(+), 12 deletions(-)
+picked 8befc47c1c 148
+try to pick 389c77aa2d 148
+Auto-merging be/src/agent/task_worker_pool.cpp
+[branch-3.0 a456f8a83c] [fix](java udf) fix clean_udf_cache_callback without enable_java_support   (#39340)
+ Author: Mryange <59914473+Mryange@users.noreply.github.com>
+ Date: Fri Aug 16 10:29:42 2024 +0800
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+picked 389c77aa2d 149
+try to pick 721f57bc8d 149
+[branch-3.0 05a6b86635] [improvement](nereids) support extract from disjunction in join on condition (#38479)
+ Author: feiniaofeiafei <53502832+feiniaofeiafei@users.noreply.github.com>
+ Date: Fri Aug 16 10:53:05 2024 +0800
+ 6 files changed, 157 insertions(+), 16 deletions(-)
+ create mode 100644 regression-test/data/nereids_rules_p0/push_down_filter/extract_from_disjunction_in_join.out
+ rename regression-test/data/nereids_rules_p0/{push_down_filter_through_window => push_down_filter}/push_down_filter_through_window.out (100%)
+ create mode 100644 regression-test/suites/nereids_rules_p0/push_down_filter/extract_from_disjunction_in_join.groovy
+ rename regression-test/suites/nereids_rules_p0/{push_down_filter_through_window => push_down_filter}/push_down_filter_through_window.groovy (100%)
+picked 721f57bc8d 150
+try to pick afa5684806 150
+[branch-3.0 9160e5a154] [fix](Nereids) fix explain plan with sql cache (#39431)
+ Author: 924060929 <924060929@qq.com>
+ Date: Fri Aug 16 11:10:02 2024 +0800
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+picked afa5684806 151
+try to pick 8306a21238 151
+[branch-3.0 085553c226] [Fix](Txn) Fix wrong columns sequence in txn model (#39295)
+ Author: abmdocrt <Yukang.Lian2022@gmail.com>
+ Date: Fri Aug 16 11:51:27 2024 +0800
+ 8 files changed, 187 insertions(+), 3 deletions(-)
+ create mode 100644 regression-test/data/insert_p0/txn_insert_with_specify_columns.out
+ create mode 100644 regression-test/suites/insert_p0/txn_insert_with_specify_columns.groovy
+picked 8306a21238 152
+try to pick 7a0920223e 152
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/qe/SessionVariable.java
+[branch-3.0 37b9443432] [chore](conf)remove unused  doris_max_scan_key_num and max_send_batch_parallelism_per_job conf (#39219)
+ Author: Mryange <59914473+Mryange@users.noreply.github.com>
+ Date: Fri Aug 16 14:21:43 2024 +0800
+ 6 files changed, 7 insertions(+), 43 deletions(-)
+picked 7a0920223e 153
+try to pick 7372c99eca 153
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/qe/SessionVariable.java
+[branch-3.0 0c89e99435] [Improvement](sort) add session variable force_sort_algorithm and adjust some parameter about sort (#39334)
+ Author: Pxl <pxl290@qq.com>
+ Date: Fri Aug 16 15:13:30 2024 +0800
+ 3 files changed, 31 insertions(+), 23 deletions(-)
+picked 7372c99eca 154
+try to pick 3ab85f3f4e 154
+Auto-merging regression-test/suites/nereids_function_p0/scalar_function/Array.groovy
+CONFLICT (content): Merge conflict in regression-test/suites/nereids_function_p0/scalar_function/Array.groovy
+Auto-merging regression-test/suites/query_p0/sql_functions/array_functions/test_array_functions_by_literal.groovy
+CONFLICT (content): Merge conflict in regression-test/suites/query_p0/sql_functions/array_functions/test_array_functions_by_literal.groovy
+error: could not apply 3ab85f3f4e... [fix](arrayfuncs) fix array min/max func  (#39307)
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+failed to pick 3ab85f3f4e
+try to pick 777dbfbac8 155
+[branch-3.0 eb96213f92] [improve](explode-json-array)change explode-json-array-xx func signature from string to json type (#37278)
+ Author: amory <wangqiannan@selectdb.com>
+ Date: Fri Aug 16 15:59:51 2024 +0800
+ 13 files changed, 188 insertions(+), 12 deletions(-)
+picked 777dbfbac8 156
+try to pick ec249e777d 156
+[branch-3.0 0fe77c12dc] [Fix](core) Fix wal mgr heap use after free when stop doris (#33131)
+ Author: abmdocrt <Yukang.Lian2022@gmail.com>
+ Date: Fri Aug 16 16:42:21 2024 +0800
+ 1 file changed, 5 insertions(+)
+picked ec249e777d 157
+try to pick ada521589b 157
+[branch-3.0 88df6b14ca] [fix](mtmv)Fix cancelled tasks with running status (#39424)
+ Author: zhangdong <493738387@qq.com>
+ Date: Fri Aug 16 16:49:50 2024 +0800
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+picked ada521589b 158
+try to pick 7665b887db 158
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/nereids/stats/StatsCalculator.java
+[branch-3.0 3138e99a7c] [fix](nereids) fix unstable mv regression cases (#39265)
+ Author: minghong <englefly@gmail.com>
+ Date: Fri Aug 16 16:53:23 2024 +0800
+ 38 files changed, 494 insertions(+), 835 deletions(-)
+picked 7665b887db 159
+try to pick e4056dfb46 159
+[branch-3.0 d281487aa2] [enhance](mtmv)refresh hms table before run mtmv task (#38212)
+ Author: zhangdong <493738387@qq.com>
+ Date: Fri Aug 16 17:08:09 2024 +0800
+ 2 files changed, 3 insertions(+), 14 deletions(-)
+picked e4056dfb46 160
+try to pick 9ffb060ac7 160
+Auto-merging fe/fe-core/src/main/antlr4/org/apache/doris/nereids/DorisLexer.g4
+Auto-merging fe/fe-core/src/main/antlr4/org/apache/doris/nereids/DorisParser.g4
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/analysis/CreateMaterializedViewStmt.java
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/analysis/CreateStorageVaultStmt.java
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/nereids/parser/LogicalPlanBuilder.java
+Auto-merging fe/fe-core/src/test/java/org/apache/doris/nereids/parser/NereidsParserTest.java
+[branch-3.0 9f189524c1] [opt](Nereids) support create statement syntax in Nereids (#39427)
+ Author: morrySnow <101034200+morrySnow@users.noreply.github.com>
+ Date: Fri Aug 16 18:56:29 2024 +0800
+ 22 files changed, 204 insertions(+), 26 deletions(-)
+picked 9ffb060ac7 161
+try to pick 397b0771e2 161
+Auto-merging gensrc/proto/olap_file.proto
+[branch-3.0 1535ae5829] [opt] (inverted index) add inverted index file size for open file (#37482)
+ Author: Sun Chenyang <csun5285@gmail.com>
+ Date: Fri Aug 16 19:40:44 2024 +0800
+ 38 files changed, 808 insertions(+), 189 deletions(-)
+ create mode 100644 regression-test/data/inverted_index_p0/test_compound_reader_fault_injection.out
+ create mode 100644 regression-test/data/inverted_index_p0/test_inverted_index_file_size.out
+ create mode 100644 regression-test/data/inverted_index_p0/test_inverted_index_v2_file_size.out
+ create mode 100644 regression-test/suites/inverted_index_p0/test_compound_reader_fault_injection.groovy
+ create mode 100644 regression-test/suites/inverted_index_p0/test_inverted_index_file_size.groovy
+ create mode 100644 regression-test/suites/inverted_index_p0/test_inverted_index_v2_file_size.groovy
+picked 397b0771e2 162
+try to pick 83ee300ddb 162
+[branch-3.0 5bfd7115b1] [Chore](exec) remove some thread pool and rename fragmentMgrThreadPool (#39344)
+ Author: Pxl <pxl290@qq.com>
+ Date: Fri Aug 16 19:57:40 2024 +0800
+ 6 files changed, 12 insertions(+), 46 deletions(-)
+picked 83ee300ddb 163
+try to pick 2605b18d89 163
+On branch branch-3.0
+Your branch is ahead of 'origin/branch-3.0' by 135 commits.
+  (use "git push" to publish your local commits)
+
+You are currently cherry-picking commit 2605b18d89.
+  (all conflicts fixed: run "git cherry-pick --continue")
+  (use "git cherry-pick --skip" to skip this patch)
+  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   be/src/apache-orc (untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	0001-fix-autoinc-avoid-duplicated-auto-inc-when-role-of-f.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets-34003.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets.patch
+	0001-fix-oom-avoid-oom-when-a-lot-of-tablets-fail-on-load.patch
+	0001-fix.patch
+	0001-revert-improvement-mv-Support-to-use-cast-when-creat.patch
+	1.7.0.tar.gz
+	2.1.5commitlog
+	23092.patch.1
+	24639.patch.1
+	34143.patch
+	36311.patch
+	36349.patch
+	37533.patch
+	37643.patch
+	37762.patch
+	37848.patch
+	37855.patch
+	39288.patch
+	39338.patch
+	39373.patch
+	39429.patch
+	[jar]
+	a.out
+	backupmeta.patch
+	be.tar.gz
+	be/src/clucene.rej
+	be/src/olap/merger.cpp.orig
+	be/src/olap/merger.cpp.rej
+	be/src/olap/rowset/beta_rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.rej
+	be/src/olap/rowset/rowset.h.orig
+	be/src/olap/storage_engine.cpp.orig
+	be/src/olap/tablet.cpp.orig
+	be/src/olap/tablet.cpp.rej
+	be/src/olap/tablet.h.orig
+	be/src/olap/tablet_manager.cpp.orig
+	be/src/vec/sink/:wq
+	binary_diff
+	brpc-1.7.0/
+	build.sh.rej
+	c83e40928762ff2bbd99966ef5b82b8f216fd60f.patch
+	callonce.cpp
+	catch_pipeline.patch
+	check_and_label_prs.sh
+	cherry-pick.sh
+	cherry_pick.result
+	cherry_pick_non_feature.sh
+	commit_not_in_3.0
+	commit_not_in_3.0_0812.txt
+	commit_not_in_3.0_author_order.0812
+	commit_with_author
+	commitlog
+	commitlog_3.0_0722
+	common.sh
+	compare_3.0_with_master_and_2.1.sh
+	compare_commit.logging
+	compare_commit.result
+	conflict_3.0_commits.txt
+	conflict_new_commits.txt
+	diff_files
+	doris-2.0.5-rc02.tar.gz
+	doris-meta.tar.gz
+	doris-thirdparty-prebuilt-linux-x86_64.tar
+	doris_be.tar.gz
+	fe.out
+	fe.tar.gz
+	fe.ut
+	fe.ut.out
+	fe/ajcore.20240620.115138.899.txt
+	fe/fe-core/kafka_datasource_properties
+	fe/fe-core/null/
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/backup/RestoreJob.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/MTMV.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/OlapTable.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils134.java.orig
+	fe/fe-core/test_datasource_properties
+	file_new.txt
+	fix.sh
+	get_prs_by_label.py
+	ignored_pr_by_3.0.txt
+	jdk_env.sh
+	label_3.0.x_for_p0.sh
+	label_commits_with_label.sh
+	label_conflict.logging
+	label_conflict_prs.sh
+	label_master.result
+	label_pr_in_master.logging
+	label_pr_with_3.0.x.sh
+	label_pr_with_3.0.x_in_master.sh
+	meta_check.py
+	not_in_3.0_prs
+	output.txt
+	part3
+	patch
+	patch.gsonutil
+	pick3.0-07-19
+	pick_history_0817.txt
+	regression-test/data/compress_p1/
+	release_output.tar.gz
+	release_output/
+	simple-file.binary
+	test.cpp
+	test_env/
+	thirdparty.master/
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar.xz.1
+	thirdparty/libevent-enableThe previous cherry-pick is now empty, possibly due to conflict resolution.
+If you wish to commit it anyway, use:
+
+    git commit --allow-empty
+
+Otherwise, please use 'git cherry-pick --skip'
+_keepalive_accepted_socket.patch
+	yyq.beut
+	yyq.compare.0802
+	yyq.compare.0804
+	yyq.debug
+	yyq.feout
+	yyq.label_master
+	yyq.label_master.dry_run
+	yyq.out
+	yyq.ut
+	yyq/
+	zoneinfo/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+failed to pick 2605b18d89
+try to pick 5c24ec946a 164
+[branch-3.0 1daf1d7051] [Fix](build) fix cloud compilation on arm without AZURE (#39507)
+ Author: zclllhhjj <zhaochangle@selectdb.com>
+ Date: Sat Aug 17 02:02:16 2024 +0800
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+picked 5c24ec946a 165
+try to pick b0f22f044c 165
+Auto-merging be/src/pipeline/pipeline_fragment_context.cpp
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/service/FrontendServiceImpl.java
+Auto-merging gensrc/thrift/FrontendService.thrift
+[branch-3.0 e790a85fe0] [opt](query cancel) cancel query if it has pipeline task leakage (#39223)
+ Author: zhiqiang <seuhezhiqiang@163.com>
+ Date: Sat Aug 17 16:40:48 2024 +0800
+ 15 files changed, 279 insertions(+), 35 deletions(-)
+picked b0f22f044c 166
+try to pick 9d87bbfb74 166
+[branch-3.0 c37a1d7cd3] [Chore] remove unused code (#38903)
+ Author: Vallish Pai <vallishpai@gmail.com>
+ Date: Sat Aug 17 15:09:55 2024 +0530
+ 1 file changed, 13 deletions(-)
+picked 9d87bbfb74 167
+try to pick 94ffcb5b0c 167
+94ffcb5b0c
+try to pick 73a710fb0b 168
+73a710fb0b
+try to pick aaaf54561c 169
+aaaf54561c
+try to pick 004c5a369a 170
+004c5a369a
+try to pick 13cb38053d 171
+Auto-merging be/src/olap/compaction.cpp
+Auto-merging be/src/olap/cumulative_compaction.cpp
+Auto-merging be/src/olap/tablet.cpp
+CONFLICT (content): Merge conflict in be/src/olap/tablet.cpp
+error: could not apply 13cb38053d... [fix] (compaction) fix time series compaction policy (#38220)
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+failed to pick 13cb38053d
+try to pick 4f08995b31 172
+Auto-merging regression-test/plugins/plugin_curl_requester.groovy
+On branch branch-3.0
+Your branch is ahead of 'origin/branch-3.0' by 138 commits.
+  (use "git push" to publish your local commits)
+
+You are currently cherry-picking commit 4f08995b31.
+  (all conflicts fixed: run "git cherry-pick --continue")
+  (use "git cherry-pick --skip" to skip this patch)
+  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   be/src/apache-orc (untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	0001-fix-autoinc-avoid-duplicated-auto-inc-when-role-of-f.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets-34003.patch
+	0001-fix-fd-release-fd-for-shutdown-tablets.patch
+	0001-fix-oom-avoid-oom-when-a-lot-of-tablets-fail-on-load.patch
+	0001-fix.patch
+	0001-revert-improvement-mv-Support-to-use-cast-when-creat.patch
+	1.7.0.tar.gz
+	2.1.5commitlog
+	23092.patch.1
+	24639.patch.1
+	34143.patch
+	36311.patch
+	36349.patch
+	37533.patch
+	37643.patch
+	37762.patch
+	37848.patch
+	37855.patch
+	39288.patch
+	39338.patch
+	39373.patch
+	39429.patch
+	[jar]
+	a.out
+	backupmeta.patch
+	be.tar.gz
+	be/src/clucene.rej
+	be/src/olap/merger.cpp.orig
+	be/src/olap/merger.cpp.rej
+	be/src/olap/rowset/beta_rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.orig
+	be/src/olap/rowset/rowset.cpp.rej
+	be/src/olap/rowset/rowset.h.orig
+	be/src/olap/storage_engine.cpp.orig
+	be/src/olap/tablet.cpp.orig
+	be/src/olap/tablet.cpp.rej
+	be/src/olap/tablet.h.orig
+	be/src/olap/tablet_manager.cpp.orig
+	be/src/vec/sink/:wq
+	binary_diff
+	brpc-1.7.0/
+	build.sh.rej
+	c83e40928762ff2bbd99966ef5b82b8f216fd60f.patch
+	callonce.cpp
+	catch_pipeline.patch
+	check_and_label_prs.sh
+	cherry-pick.sh
+	cherry_pick.result
+	cherry_pick_non_feature.sh
+	commit_not_in_3.0
+	commit_not_in_3.0_0812.txt
+	commit_not_in_3.0_author_order.0812
+	commit_with_author
+	commitlog
+	commitlog_3.0_0722
+	common.sh
+	compare_3.0_with_master_and_2.1.sh
+	compare_commit.logging
+	compare_commit.result
+	conflict_3.0_commits.txt
+	conflict_new_commits.txt
+	diff_files
+	doris-2.0.5-rc02.tar.gz
+	doris-meta.tar.gz
+	doris-thirdparty-prebuilt-linux-x86_64.tar
+	doris_be.tar.gz
+	fe.out
+	fe.tar.gz
+	fe.ut
+	fe.ut.out
+	fe/ajcore.20240620.115138.899.txt
+	fe/fe-core/kafka_datasource_properties
+	fe/fe-core/null/
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/backup/RestoreJob.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Database.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/MTMV.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/OlapTable.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/catalog/PartitionInfo.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.orig
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils.java.rej
+	fe/fe-core/src/main/java/org/apache/doris/persist/gson/GsonUtils134.java.orig
+	fe/fe-core/test_datasource_properties
+	file_new.txt
+	fix.sh
+	get_prs_by_label.py
+	ignored_pr_by_3.0.txt
+	jdk_env.sh
+	label_3.0.x_for_p0.sh
+	label_commits_with_label.sh
+	label_conflict.logging
+	label_conflict_prs.sh
+	label_master.result
+	label_pr_in_master.logging
+	label_pr_with_3.0.x.sh
+	label_pr_with_3.0.x_in_master.sh
+	meta_check.py
+	not_in_3.0_prs
+	output.txt
+	part3
+	patch
+	patch.gsonutil
+	pick3.0-07-19
+	pick_history_0817.txt
+	regression-test/data/compress_p1/
+	release_output.tar.gz
+	release_output/
+	simple-file.binary
+	test.cpp
+	test_env/
+	thirdparty.master/
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar
+	thirdparty/doris-thirdparty-prebuilt-linux-x86_64.tar.xz.1
+	thirdparty/libevent-enableThe previous cherry-pick is now empty, possibly due to conflict resolution.
+If you wish to commit it anyway, use:
+
+    git commit --allow-empty
+
+Otherwise, please use 'git cherry-pick --skip'
+_keepalive_accepted_socket.patch
+	yyq.beut
+	yyq.compare.0802
+	yyq.compare.0804
+	yyq.debug
+	yyq.feout
+	yyq.label_master
+	yyq.label_master.dry_run
+	yyq.out
+	yyq.ut
+	yyq/
+	zoneinfo/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+failed to pick 4f08995b31
+try to pick 476a159dea 173
+Auto-merging be/src/vec/olap/vcollect_iterator.cpp
+CONFLICT (content): Merge conflict in be/src/vec/olap/vcollect_iterator.cpp
+Auto-merging regression-test/suites/inverted_index_p0/topn_clear_block.groovy
+CONFLICT (add/add): Merge conflict in regression-test/suites/inverted_index_p0/topn_clear_block.groovy
+error: could not apply 476a159dea... [fix] (topn) fix uncleared block in topn_next() (#39119)
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+failed to pick 476a159dea
+try to pick dee2b70d3e 174
+a01518cdd1 [enhance](mtmv)hive cache add partitionId to partitionName Map (#38525)
+dee2b70d3e is in branch-3.0
+try to pick d91a7adb14 175
+467c2fa3dc [enhance](auth)modify priv of refresh catalog/db/table (#39008)
+d91a7adb14 is in branch-3.0
+try to pick 1810cba236 176
+fc572bc0a7 [fix](variable) support all type functions (#39144)
+1810cba236 is in branch-3.0
+try to pick 285f68a098 177
+d115a9f96d [chore](table) Add batch method to get visible version of the olap table (#38949)
+285f68a098 is in branch-3.0
+try to pick 1ab9e9dcb6 178
+21213baa8e [opt](log) avoid lots of json parse error logs (#39190)
+1ab9e9dcb6 is in branch-3.0
+try to pick 2b46aaa549 179
+3de1c942e3 [fix](ES Catalog)Check isArray before parse json to array (#39104)
+2b46aaa549 is in branch-3.0
+try to pick dac6bab63d 180
+36fc3d56d0 [fix](inverted index)Add exception check when write bkd index (#39248)
+dac6bab63d is in branch-3.0
+try to pick a3f4a92856 181
+16ae1eba90 [refactor](minor) Init counter in prepare phase (#39287)
+a3f4a92856 is in branch-3.0
+try to pick 9d91208086 182
+61a30d6dfa [opt](set operation) INTERSECT should evaluated before others (#39095)
+9d91208086 is in branch-3.0
+try to pick 66f624376e 183
+f1083ef147 [fix](Nereids) polish function signature search algorithm (#38497)
+66f624376e is in branch-3.0
+try to pick 14304497a2 184
+3da9d7d07e [Fix](nereids) fix condition function partition prune (#39298)
+14304497a2 is in branch-3.0
+try to pick b949929276 185
+e51a2e2378 [fix](function) fix error return type in corr(float32,float32)  (#39251)
+b949929276 is in branch-3.0
+try to pick 15f07b96c6 186
+4fe2885494 [chore](test) rename conflict name under same database in test cases (#39243)
+15f07b96c6 is in branch-3.0
+try to pick c51e786d95 187
+b01a52ba4c [fix](Nereids) support implicit cast ip types to string (#39318)
+c51e786d95 is in branch-3.0
+try to pick 8844e03bbd 188
+a6adb47b27 [opt](mtmv) partition rollup support week and quarter (#39286)
+8844e03bbd is in branch-3.0
+try to pick 267a084aa9 189
+4c8235d304 [fix](protocol) CLIENT_MULTI_STATEMENTS not used actually (#39308)
+267a084aa9 is in branch-3.0
+try to pick e70e91bb51 190
+1575053d20 [improvement](external catalog)Optimize the process of refreshing catalog (#39205)
+e70e91bb51 is in branch-3.0
+try to pick d0d3ad0dd3 191
+a73fb9f9d1 [fix](group commit) fix group commit core if be inject FragmentMgr.exec_plan_fragment.failed (#39339)
+d0d3ad0dd3 is in branch-3.0
+try to pick 90d92e99b8 192
+238fe535b4 [fix](group commit) fix group commit insert rpc may stuck (#39391)
+90d92e99b8 is in branch-3.0
+try to pick 3df4b7fc26 193
+e9f15876ac [opt](Nereids) support parse sql with semicolon at beginning (#39399)
+3df4b7fc26 is in branch-3.0
+try to pick 755221b96a 194
+e11c7ec3eb [opt](Nereids) polish aggregate function signature matching (#39352)
+755221b96a is in branch-3.0
+try to pick ae27e92565 195
+da3b0bd042 [fix](Nereids) npe when delete with cte and without using (#39379)
+ae27e92565 is in branch-3.0
+try to pick 982dcf4002 196
+c9ab71a784 [improvement](statistics)Support drop cached stats. (#39367)
+982dcf4002 is in branch-3.0
+try to pick afa5684806 197
+9160e5a154 [fix](Nereids) fix explain plan with sql cache (#39431)
+afa5684806 is in branch-3.0
+try to pick ada521589b 198
+88df6b14ca [fix](mtmv)Fix cancelled tasks with running status (#39424)
+ada521589b is in branch-3.0
+try to pick e4056dfb46 199
+d281487aa2 [enhance](mtmv)refresh hms table before run mtmv task (#38212)
+e4056dfb46 is in branch-3.0

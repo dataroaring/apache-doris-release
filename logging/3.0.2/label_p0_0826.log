@@ -1,0 +1,1035 @@
+Processing label p0_w,
+PR 39757 is not in origin/branch-3.0
+PR 39757 is not in origin/master
+PR 37788 is not in origin/branch-3.0
+dev/3.0.0-merged
+PR 37532 is not in origin/branch-3.0
+PR 37532 is not in origin/master
+PR 36443 is not in origin/branch-3.0
+PR 36443 is not in origin/master
+PR 34583 is not in origin/branch-3.0
+PR 34583 is not in origin/master
+PR 32679 is not in origin/branch-3.0
+PR 32679 is not in origin/master
+PR 28258 is not in origin/branch-3.0
+PR 28258 is not in origin/master
+PR 25788 is not in origin/branch-3.0
+PR 25788 is not in origin/master
+Processing label p0_l,
+Processing label p0_c,
+PR 39520 is not in origin/branch-3.0
+label 39520 with dev/3.0.x
+https://github.com/apache/doris/pull/39520
+PR 39239 is not in origin/branch-3.0
+label 39239 with dev/3.0.x
+https://github.com/apache/doris/pull/39239
+PR 38962 is not in origin/branch-3.0
+label 38962 with dev/3.0.x
+https://github.com/apache/doris/pull/38962
+PR 38817 is not in origin/branch-3.0
+label 38817 with dev/3.0.x
+https://github.com/apache/doris/pull/38817
+PR 38737 is not in origin/branch-3.0
+dev/3.0.1-merged
+PR 38394 is not in origin/branch-3.0
+PR 38394 is not in origin/master
+PR 38364 is not in origin/branch-3.0
+dev/3.0.1-merged
+PR 37839 is not in origin/branch-3.0
+dev/3.0.0-merged
+PR 37674 is not in origin/branch-3.0
+dev/3.0.0-merged
+PR 32744 is not in origin/branch-3.0
+PR 32744 is not in origin/master
+PR 32085 is not in origin/branch-3.0
+PR 32085 is not in origin/master
+PR 30836 is not in origin/branch-3.0
+PR 30836 is not in origin/master
+PR 28627 is not in origin/branch-3.0
+PR 28627 is not in origin/master
+PR 28108 is not in origin/branch-3.0
+PR 28108 is not in origin/master
+PR 27843 is not in origin/branch-3.0
+PR 27843 is not in origin/master
+PR 27765 is not in origin/branch-3.0
+PR 27765 is not in origin/master
+PR 26990 is not in origin/branch-3.0
+PR 26990 is not in origin/master
+COMMIT: a18615c0ae - PR: 39520
+Auto-merging regression-test/framework/src/main/groovy/org/apache/doris/regression/suite/Suite.groovy
+[branch-3.0 5a886180c0] [Bug](http-api) fix core dump on API check_rpc_channel coz exec_env not init (#39520)
+ Author: Vallish Pai <vallishpai@gmail.com>
+ Date: Tue Aug 20 07:42:58 2024 +0530
+ 7 files changed, 48 insertions(+), 8 deletions(-)
+ create mode 100644 regression-test/suites/http_p0/check_rpc_channel/check_rpc_channel.groovy
+https://github.com/apache/doris/pull/39520
+COMMIT: 2c8d65b475 - PR: 39239
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/datasource/CatalogMgr.java
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/datasource/ExternalDatabase.java
+Auto-merging regression-test/pipeline/external/conf/fe.conf
+[branch-3.0 f029a7fc72] [fix](hive)Modify the Hive notification event processing method when using meta cache and add parameters to the Hive catalog. (#39239)
+ Author: daidai <2017501503@qq.com>
+ Date: Fri Aug 23 18:45:31 2024 +0800
+ 20 files changed, 1157 insertions(+), 53 deletions(-)
+ create mode 100644 regression-test/suites/external_table_p0/hive/test_hms_event_notification.groovy
+ create mode 100644 regression-test/suites/external_table_p0/hive/test_hms_event_notification_multi_catalog.groovy
+https://github.com/apache/doris/pull/39239
+COMMIT: 49cd4c4887 - PR: 38962
+[branch-3.0 f3e0b3c13b] [feature](FE) Add COS's list and head object implementation for FE (#38962)
+ Author: AlexYue <yj976240184@gmail.com>
+ Date: Tue Aug 13 10:18:20 2024 +0800
+ 1 file changed, 84 insertions(+), 6 deletions(-)
+https://github.com/apache/doris/pull/38962
+COMMIT: fbe529b075 - PR: 38817
+CONFLICT (modify/delete): be/src/vec/functions/function_split_by_regexp.cpp deleted in HEAD and modified in fbe529b075 ([fix] add null check before accessing pointer (#38817)).  Version fbe529b075 ([fix] add null check before accessing pointer (#38817)) of be/src/vec/functions/function_split_by_regexp.cpp left in tree.
+error: could not apply fbe529b075... [fix] add null check before accessing pointer (#38817)
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+Processing label p0_b,
+PR 39786 is not in origin/branch-3.0
+PR 39786 is not in origin/master
+PR 39725 is not in origin/branch-3.0
+PR 39725 is not in origin/master
+PR 39705 is not in origin/branch-3.0
+label 39705 with dev/3.0.x
+https://github.com/apache/doris/pull/39705
+PR 39663 is not in origin/branch-3.0
+label 39663 with dev/3.0.x
+https://github.com/apache/doris/pull/39663
+PR 39629 is not in origin/branch-3.0
+PR 39629 is not in origin/master
+PR 39590 is not in origin/branch-3.0
+label 39590 with dev/3.0.x
+https://github.com/apache/doris/pull/39590
+PR 39581 is not in origin/branch-3.0
+label 39581 with dev/3.0.x
+https://github.com/apache/doris/pull/39581
+PR 39171 is not in origin/branch-3.0
+label 39171 with dev/3.0.x
+https://github.com/apache/doris/pull/39171
+PR 39159 is not in origin/branch-3.0
+label 39159 with dev/3.0.x
+https://github.com/apache/doris/pull/39159
+PR 38610 is not in origin/branch-3.0
+PR 38610 is not in origin/master
+PR 34562 is not in origin/branch-3.0
+PR 34562 is not in origin/master
+PR 28767 is not in origin/branch-3.0
+PR 28767 is not in origin/master
+PR 28732 is not in origin/branch-3.0
+PR 28732 is not in origin/master
+PR 28212 is not in origin/branch-3.0
+PR 28212 is not in origin/master
+PR 28169 is not in origin/branch-3.0
+PR 28169 is not in origin/master
+PR 27917 is not in origin/branch-3.0
+PR 27917 is not in origin/master
+PR 27880 is not in origin/branch-3.0
+PR 27880 is not in origin/master
+PR 27877 is not in origin/branch-3.0
+PR 27877 is not in origin/master
+PR 27547 is not in origin/branch-3.0
+PR 27547 is not in origin/master
+PR 27169 is not in origin/branch-3.0
+PR 27169 is not in origin/master
+PR 26037 is not in origin/branch-3.0
+PR 26037 is not in origin/master
+PR 25985 is not in origin/branch-3.0
+PR 25985 is not in origin/master
+PR 25856 is not in origin/branch-3.0
+PR 25856 is not in origin/master
+PR 25850 is not in origin/branch-3.0
+PR 25850 is not in origin/master
+PR 24800 is not in origin/branch-3.0
+PR 24800 is not in origin/master
+PR 24610 is not in origin/branch-3.0
+PR 24610 is not in origin/master
+PR 24568 is not in origin/branch-3.0
+PR 24568 is not in origin/master
+PR 23249 is not in origin/branch-3.0
+PR 23249 is not in origin/master
+COMMIT: 12016acb2e - PR: 39705
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 70983f2cbe - PR: 39663
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 3f6749461d - PR: 39590
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: cfcd60ce4f - PR: 39581
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: eb67a64f75 - PR: 39171
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 2c64b52e1c - PR: 39159
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+Processing label usercase,
+PR 39806 is not in origin/branch-3.0
+label 39806 with dev/3.0.x
+https://github.com/apache/doris/pull/39806
+PR 39792 is not in origin/branch-3.0
+PR 39792 is not in origin/master
+PR 39757 is not in origin/branch-3.0
+PR 39757 is not in origin/master
+PR 39743 is not in origin/branch-3.0
+label 39743 with dev/3.0.x
+https://github.com/apache/doris/pull/39743
+PR 39699 is not in origin/branch-3.0
+PR 39699 is not in origin/master
+PR 39656 is not in origin/branch-3.0
+label 39656 with dev/3.0.x
+https://github.com/apache/doris/pull/39656
+PR 39640 is not in origin/branch-3.0
+label 39640 with dev/3.0.x
+https://github.com/apache/doris/pull/39640
+PR 39474 is not in origin/branch-3.0
+label 39474 with dev/3.0.x
+https://github.com/apache/doris/pull/39474
+PR 39465 is not in origin/branch-3.0
+label 39465 with dev/3.0.x
+https://github.com/apache/doris/pull/39465
+PR 39355 is not in origin/branch-3.0
+label 39355 with dev/3.0.x
+https://github.com/apache/doris/pull/39355
+PR 39105 is not in origin/branch-3.0
+label 39105 with dev/3.0.x
+https://github.com/apache/doris/pull/39105
+PR 38985 is not in origin/branch-3.0
+dev/3.0.1-merged
+PR 38784 is not in origin/branch-3.0
+PR 38784 is not in origin/master
+PR 38700 is not in origin/branch-3.0
+label 38700 with dev/3.0.x
+https://github.com/apache/doris/pull/38700
+PR 38628 is not in origin/branch-3.0
+PR 38628 is not in origin/master
+PR 38500 is not in origin/branch-3.0
+PR 38500 is not in origin/master
+PR 38459 is not in origin/branch-3.0
+PR 38459 is not in origin/master
+PR 38227 is not in origin/branch-3.0
+PR 38227 is not in origin/master
+PR 38215 is not in origin/branch-3.0
+PR 38215 is not in origin/master
+PR 37217 is not in origin/branch-3.0
+dev/3.0.0-merged
+PR 37121 is not in origin/branch-3.0
+dev/3.0.1-merged
+PR 36994 is not in origin/branch-3.0
+PR 36994 is not in origin/master
+PR 36401 is not in origin/branch-3.0
+PR 36401 is not in origin/master
+PR 35714 is not in origin/branch-3.0
+PR 35714 is not in origin/master
+PR 35029 is not in origin/branch-3.0
+PR 35029 is not in origin/master
+PR 34826 is not in origin/branch-3.0
+PR 34826 is not in origin/master
+PR 34103 is not in origin/branch-3.0
+PR 34103 is not in origin/master
+PR 32220 is not in origin/branch-3.0
+PR 32220 is not in origin/master
+PR 32162 is not in origin/branch-3.0
+PR 32162 is not in origin/master
+PR 32157 is not in origin/branch-3.0
+PR 32157 is not in origin/master
+PR 32129 is not in origin/branch-3.0
+PR 32129 is not in origin/master
+PR 29913 is not in origin/branch-3.0
+PR 29913 is not in origin/master
+PR 29363 is not in origin/branch-3.0
+PR 29363 is not in origin/master
+PR 29222 is not in origin/branch-3.0
+PR 29222 is not in origin/master
+PR 29221 is not in origin/branch-3.0
+PR 29221 is not in origin/master
+PR 28872 is not in origin/branch-3.0
+PR 28872 is not in origin/master
+PR 28732 is not in origin/branch-3.0
+PR 28732 is not in origin/master
+PR 28627 is not in origin/branch-3.0
+PR 28627 is not in origin/master
+PR 28357 is not in origin/branch-3.0
+PR 28357 is not in origin/master
+PR 28341 is not in origin/branch-3.0
+PR 28341 is not in origin/master
+PR 28258 is not in origin/branch-3.0
+PR 28258 is not in origin/master
+PR 28212 is not in origin/branch-3.0
+PR 28212 is not in origin/master
+PR 27938 is not in origin/branch-3.0
+PR 27938 is not in origin/master
+PR 27765 is not in origin/branch-3.0
+PR 27765 is not in origin/master
+PR 27608 is not in origin/branch-3.0
+PR 27608 is not in origin/master
+PR 27276 is not in origin/branch-3.0
+PR 27276 is not in origin/master
+PR 26990 is not in origin/branch-3.0
+PR 26990 is not in origin/master
+PR 26339 is not in origin/branch-3.0
+PR 26339 is not in origin/master
+PR 25463 is not in origin/branch-3.0
+PR 25463 is not in origin/master
+PR 25252 is not in origin/branch-3.0
+PR 25252 is not in origin/master
+PR 25225 is not in origin/branch-3.0
+PR 25225 is not in origin/master
+PR 24940 is not in origin/branch-3.0
+PR 24940 is not in origin/master
+PR 24624 is not in origin/branch-3.0
+PR 24624 is not in origin/master
+PR 24445 is not in origin/branch-3.0
+PR 24445 is not in origin/master
+PR 24397 is not in origin/branch-3.0
+PR 24397 is not in origin/master
+PR 24088 is not in origin/branch-3.0
+PR 24088 is not in origin/master
+PR 23958 is not in origin/branch-3.0
+PR 23958 is not in origin/master
+PR 23035 is not in origin/branch-3.0
+PR 23035 is not in origin/master
+PR 22844 is not in origin/branch-3.0
+PR 22844 is not in origin/master
+PR 22648 is not in origin/branch-3.0
+PR 22648 is not in origin/master
+PR 22204 is not in origin/branch-3.0
+PR 22204 is not in origin/master
+PR 22091 is not in origin/branch-3.0
+PR 22091 is not in origin/master
+PR 21950 is not in origin/branch-3.0
+PR 21950 is not in origin/master
+PR 21934 is not in origin/branch-3.0
+PR 21934 is not in origin/master
+PR 21880 is not in origin/branch-3.0
+PR 21880 is not in origin/master
+PR 21820 is not in origin/branch-3.0
+PR 21820 is not in origin/master
+PR 21804 is not in origin/branch-3.0
+PR 21804 is not in origin/master
+PR 21731 is not in origin/branch-3.0
+PR 21731 is not in origin/master
+PR 21728 is not in origin/branch-3.0
+PR 21728 is not in origin/master
+PR 21710 is not in origin/branch-3.0
+PR 21710 is not in origin/master
+PR 21709 is not in origin/branch-3.0
+PR 21709 is not in origin/master
+PR 21651 is not in origin/branch-3.0
+PR 21651 is not in origin/master
+PR 21576 is not in origin/branch-3.0
+PR 21576 is not in origin/master
+PR 21347 is not in origin/branch-3.0
+PR 21347 is not in origin/master
+PR 21276 is not in origin/branch-3.0
+PR 21276 is not in origin/master
+PR 21186 is not in origin/branch-3.0
+PR 21186 is not in origin/master
+PR 20707 is not in origin/branch-3.0
+PR 20707 is not in origin/master
+PR 20701 is not in origin/branch-3.0
+PR 20701 is not in origin/master
+PR 20700 is not in origin/branch-3.0
+PR 20700 is not in origin/master
+PR 20688 is not in origin/branch-3.0
+PR 20688 is not in origin/master
+PR 20600 is not in origin/branch-3.0
+PR 20600 is not in origin/master
+PR 19996 is not in origin/branch-3.0
+PR 19996 is not in origin/master
+PR 19628 is not in origin/branch-3.0
+PR 19628 is not in origin/master
+PR 19499 is not in origin/branch-3.0
+PR 19499 is not in origin/master
+PR 19454 is not in origin/branch-3.0
+PR 19454 is not in origin/master
+PR 19065 is not in origin/branch-3.0
+PR 19065 is not in origin/master
+PR 19064 is not in origin/branch-3.0
+PR 19064 is not in origin/master
+PR 18679 is not in origin/branch-3.0
+PR 18679 is not in origin/master
+PR 18551 is not in origin/branch-3.0
+PR 18551 is not in origin/master
+PR 18534 is not in origin/branch-3.0
+PR 18534 is not in origin/master
+PR 18341 is not in origin/branch-3.0
+PR 18341 is not in origin/master
+PR 17939 is not in origin/branch-3.0
+PR 17939 is not in origin/master
+PR 17863 is not in origin/branch-3.0
+PR 17863 is not in origin/master
+PR 17857 is not in origin/branch-3.0
+PR 17857 is not in origin/master
+PR 17788 is not in origin/branch-3.0
+PR 17788 is not in origin/master
+PR 17743 is not in origin/branch-3.0
+PR 17743 is not in origin/master
+PR 17729 is not in origin/branch-3.0
+PR 17729 is not in origin/master
+PR 17718 is not in origin/branch-3.0
+PR 17718 is not in origin/master
+PR 17690 is not in origin/branch-3.0
+PR 17690 is not in origin/master
+PR 17633 is not in origin/branch-3.0
+PR 17633 is not in origin/master
+COMMIT: 47e45bfb9d - PR: 39806
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 2048fbcca7 - PR: 39743
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 3ab5c38b24 - PR: 39656
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: ed1a32b500 - PR: 39640
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: a835633d27 - PR: 39474
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 07723d7a89 - PR: 39465
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: ac3e2e129e - PR: 39355
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: adb21f956e - PR: 39105
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: df173ae2cf - PR: 38700
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+Processing label dev/3.0.x
+PR 39913 is not in origin/branch-3.0
+PR 39913 is not in origin/master
+PR 39909 is not in origin/branch-3.0
+label 39909 with dev/3.0.x
+https://github.com/apache/doris/pull/39909
+PR 39880 is not in origin/branch-3.0
+label 39880 with dev/3.0.x
+https://github.com/apache/doris/pull/39880
+PR 39878 is not in origin/branch-3.0
+PR 39878 is not in origin/master
+PR 39877 is not in origin/branch-3.0
+label 39877 with dev/3.0.x
+https://github.com/apache/doris/pull/39877
+PR 39863 is not in origin/branch-3.0
+label 39863 with dev/3.0.x
+https://github.com/apache/doris/pull/39863
+PR 39855 is not in origin/branch-3.0
+label 39855 with dev/3.0.x
+https://github.com/apache/doris/pull/39855
+PR 39845 is not in origin/branch-3.0
+PR 39845 is not in origin/master
+PR 39842 is not in origin/branch-3.0
+label 39842 with dev/3.0.x
+https://github.com/apache/doris/pull/39842
+PR 39841 is not in origin/branch-3.0
+PR 39841 is not in origin/master
+PR 39808 is not in origin/branch-3.0
+label 39808 with dev/3.0.x
+https://github.com/apache/doris/pull/39808
+PR 39806 is not in origin/branch-3.0
+label 39806 with dev/3.0.x
+https://github.com/apache/doris/pull/39806
+PR 39804 is not in origin/branch-3.0
+PR 39804 is not in origin/master
+PR 39792 is not in origin/branch-3.0
+PR 39792 is not in origin/master
+PR 39791 is not in origin/branch-3.0
+PR 39791 is not in origin/master
+PR 39790 is not in origin/branch-3.0
+PR 39790 is not in origin/master
+PR 39786 is not in origin/branch-3.0
+PR 39786 is not in origin/master
+PR 39775 is not in origin/branch-3.0
+label 39775 with dev/3.0.x
+https://github.com/apache/doris/pull/39775
+PR 39744 is not in origin/branch-3.0
+label 39744 with dev/3.0.x
+https://github.com/apache/doris/pull/39744
+PR 39743 is not in origin/branch-3.0
+label 39743 with dev/3.0.x
+https://github.com/apache/doris/pull/39743
+PR 39739 is not in origin/branch-3.0
+PR 39739 is not in origin/master
+PR 39737 is not in origin/branch-3.0
+label 39737 with dev/3.0.x
+https://github.com/apache/doris/pull/39737
+PR 39732 is not in origin/branch-3.0
+label 39732 with dev/3.0.x
+https://github.com/apache/doris/pull/39732
+PR 39725 is not in origin/branch-3.0
+PR 39725 is not in origin/master
+PR 39710 is not in origin/branch-3.0
+label 39710 with dev/3.0.x
+https://github.com/apache/doris/pull/39710
+PR 39706 is not in origin/branch-3.0
+PR 39706 is not in origin/master
+PR 39705 is not in origin/branch-3.0
+label 39705 with dev/3.0.x
+https://github.com/apache/doris/pull/39705
+PR 39700 is not in origin/branch-3.0
+label 39700 with dev/3.0.x
+https://github.com/apache/doris/pull/39700
+PR 39696 is not in origin/branch-3.0
+label 39696 with dev/3.0.x
+https://github.com/apache/doris/pull/39696
+PR 39695 is not in origin/branch-3.0
+label 39695 with dev/3.0.x
+https://github.com/apache/doris/pull/39695
+PR 39680 is not in origin/branch-3.0
+label 39680 with dev/3.0.x
+https://github.com/apache/doris/pull/39680
+PR 39663 is not in origin/branch-3.0
+label 39663 with dev/3.0.x
+https://github.com/apache/doris/pull/39663
+PR 39656 is not in origin/branch-3.0
+label 39656 with dev/3.0.x
+https://github.com/apache/doris/pull/39656
+PR 39650 is not in origin/branch-3.0
+label 39650 with dev/3.0.x
+https://github.com/apache/doris/pull/39650
+PR 39641 is not in origin/branch-3.0
+label 39641 with dev/3.0.x
+https://github.com/apache/doris/pull/39641
+PR 39640 is not in origin/branch-3.0
+label 39640 with dev/3.0.x
+https://github.com/apache/doris/pull/39640
+PR 39595 is not in origin/branch-3.0
+label 39595 with dev/3.0.x
+https://github.com/apache/doris/pull/39595
+PR 39591 is not in origin/branch-3.0
+label 39591 with dev/3.0.x
+https://github.com/apache/doris/pull/39591
+PR 39590 is not in origin/branch-3.0
+label 39590 with dev/3.0.x
+https://github.com/apache/doris/pull/39590
+PR 39582 is not in origin/branch-3.0
+label 39582 with dev/3.0.x
+https://github.com/apache/doris/pull/39582
+PR 39581 is not in origin/branch-3.0
+label 39581 with dev/3.0.x
+https://github.com/apache/doris/pull/39581
+PR 39580 is not in origin/branch-3.0
+PR 39580 is not in origin/master
+PR 39577 is not in origin/branch-3.0
+label 39577 with dev/3.0.x
+https://github.com/apache/doris/pull/39577
+PR 39569 is not in origin/branch-3.0
+label 39569 with dev/3.0.x
+https://github.com/apache/doris/pull/39569
+PR 39566 is not in origin/branch-3.0
+label 39566 with dev/3.0.x
+https://github.com/apache/doris/pull/39566
+PR 39558 is not in origin/branch-3.0
+PR 39558 is not in origin/master
+PR 39541 is not in origin/branch-3.0
+label 39541 with dev/3.0.x
+https://github.com/apache/doris/pull/39541
+PR 39523 is not in origin/branch-3.0
+PR 39523 is not in origin/master
+PR 39521 is not in origin/branch-3.0
+PR 39521 is not in origin/master
+PR 39508 is not in origin/branch-3.0
+label 39508 with dev/3.0.x
+https://github.com/apache/doris/pull/39508
+PR 39494 is not in origin/branch-3.0
+label 39494 with dev/3.0.x
+https://github.com/apache/doris/pull/39494
+PR 39474 is not in origin/branch-3.0
+label 39474 with dev/3.0.x
+https://github.com/apache/doris/pull/39474
+PR 39467 is not in origin/branch-3.0
+label 39467 with dev/3.0.x
+https://github.com/apache/doris/pull/39467
+PR 39465 is not in origin/branch-3.0
+label 39465 with dev/3.0.x
+https://github.com/apache/doris/pull/39465
+PR 39451 is not in origin/branch-3.0
+label 39451 with dev/3.0.x
+https://github.com/apache/doris/pull/39451
+PR 39449 is not in origin/branch-3.0
+label 39449 with dev/3.0.x
+https://github.com/apache/doris/pull/39449
+PR 39433 is not in origin/branch-3.0
+label 39433 with dev/3.0.x
+https://github.com/apache/doris/pull/39433
+PR 39425 is not in origin/branch-3.0
+label 39425 with dev/3.0.x
+https://github.com/apache/doris/pull/39425
+PR 39423 is not in origin/branch-3.0
+label 39423 with dev/3.0.x
+https://github.com/apache/doris/pull/39423
+PR 39419 is not in origin/branch-3.0
+label 39419 with dev/3.0.x
+https://github.com/apache/doris/pull/39419
+PR 39412 is not in origin/branch-3.0
+PR 39412 is not in origin/master
+PR 39397 is not in origin/branch-3.0
+label 39397 with dev/3.0.x
+https://github.com/apache/doris/pull/39397
+PR 39355 is not in origin/branch-3.0
+label 39355 with dev/3.0.x
+https://github.com/apache/doris/pull/39355
+PR 39343 is not in origin/branch-3.0
+label 39343 with dev/3.0.x
+https://github.com/apache/doris/pull/39343
+PR 39325 is not in origin/branch-3.0
+label 39325 with dev/3.0.x
+https://github.com/apache/doris/pull/39325
+PR 39305 is not in origin/branch-3.0
+label 39305 with dev/3.0.x
+https://github.com/apache/doris/pull/39305
+PR 39293 is not in origin/branch-3.0
+label 39293 with dev/3.0.x
+https://github.com/apache/doris/pull/39293
+PR 39171 is not in origin/branch-3.0
+label 39171 with dev/3.0.x
+https://github.com/apache/doris/pull/39171
+PR 39169 is not in origin/branch-3.0
+label 39169 with dev/3.0.x
+https://github.com/apache/doris/pull/39169
+PR 39159 is not in origin/branch-3.0
+label 39159 with dev/3.0.x
+https://github.com/apache/doris/pull/39159
+PR 39116 is not in origin/branch-3.0
+label 39116 with dev/3.0.x
+https://github.com/apache/doris/pull/39116
+PR 39105 is not in origin/branch-3.0
+label 39105 with dev/3.0.x
+https://github.com/apache/doris/pull/39105
+PR 39093 is not in origin/branch-3.0
+label 39093 with dev/3.0.x
+https://github.com/apache/doris/pull/39093
+PR 39015 is not in origin/branch-3.0
+label 39015 with dev/3.0.x
+https://github.com/apache/doris/pull/39015
+PR 38817 is not in origin/branch-3.0
+label 38817 with dev/3.0.x
+https://github.com/apache/doris/pull/38817
+PR 38700 is not in origin/branch-3.0
+label 38700 with dev/3.0.x
+https://github.com/apache/doris/pull/38700
+PR 38685 is not in origin/branch-3.0
+label 38685 with dev/3.0.x
+https://github.com/apache/doris/pull/38685
+PR 38628 is not in origin/branch-3.0
+PR 38628 is not in origin/master
+PR 38623 is not in origin/branch-3.0
+label 38623 with dev/3.0.x
+https://github.com/apache/doris/pull/38623
+PR 38610 is not in origin/branch-3.0
+PR 38610 is not in origin/master
+PR 38388 is not in origin/branch-3.0
+PR 38388 is not in origin/master
+PR 38371 is not in origin/branch-3.0
+PR 38371 is not in origin/master
+PR 38360 is not in origin/branch-3.0
+label 38360 with dev/3.0.x
+https://github.com/apache/doris/pull/38360
+PR 38277 is not in origin/branch-3.0
+label 38277 with dev/3.0.x
+https://github.com/apache/doris/pull/38277
+PR 38158 is not in origin/branch-3.0
+label 38158 with dev/3.0.x
+https://github.com/apache/doris/pull/38158
+PR 38113 is not in origin/branch-3.0
+PR 38113 is not in origin/master
+PR 37952 is not in origin/branch-3.0
+label 37952 with dev/3.0.x
+https://github.com/apache/doris/pull/37952
+PR 37899 is not in origin/branch-3.0
+label 37899 with dev/3.0.x
+https://github.com/apache/doris/pull/37899
+PR 37606 is not in origin/branch-3.0
+label 37606 with dev/3.0.x
+https://github.com/apache/doris/pull/37606
+PR 37563 is not in origin/branch-3.0
+PR 37563 is not in origin/master
+PR 37293 is not in origin/branch-3.0
+label 37293 with dev/3.0.x
+https://github.com/apache/doris/pull/37293
+PR 37185 is not in origin/branch-3.0
+PR 37185 is not in origin/master
+PR 35664 is not in origin/branch-3.0
+PR 35664 is not in origin/master
+COMMIT: 5eb4824752 - PR: 39909
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: ce9cd66555 - PR: 39880
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 4214bedc56 - PR: 39877
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: a692af226a - PR: 39863
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 96a0f8d9b6 - PR: 39855
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 4a1af70902 - PR: 39842
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 8a1e03f959 - PR: 39808
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 47e45bfb9d - PR: 39806
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: f2bfb82d4d - PR: 39775
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 3a097291f8 - PR: 39744
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 2048fbcca7 - PR: 39743
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: c36a7ca850 - PR: 39737
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: ef7424a752 - PR: 39732
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: e01cdfb841 - PR: 39710
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 12016acb2e - PR: 39705
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: f53d1eb088 - PR: 39700
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: e4167e90c0 - PR: 39696
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 3bce17c2fc - PR: 39695
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: ab56888d5b - PR: 39680
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 70983f2cbe - PR: 39663
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 3ab5c38b24 - PR: 39656
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 979d957ce1 - PR: 39650
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 2a5b30d672 - PR: 39641
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: ed1a32b500 - PR: 39640
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 658098170f - PR: 39595
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 3608d2cc84 - PR: 39591
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 3f6749461d - PR: 39590
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 2c154c6d97 - PR: 39582
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: cfcd60ce4f - PR: 39581
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 355620b84d - PR: 39577
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: b592895285 - PR: 39569
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 37dd56c4c4 - PR: 39566
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 3e8c19f697 - PR: 39541
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: be80cf4b8b - PR: 39508
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 2f848737c1 - PR: 39494
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: a835633d27 - PR: 39474
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 5280c18100 - PR: 39467
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 07723d7a89 - PR: 39465
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: f0a2ce57b9 - PR: 39451
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: c26076eba1 - PR: 39449
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: eb5cd769fb - PR: 39433
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 3a477327ba - PR: 39425
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 27a2da1a7b - PR: 39423
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 2bdff39b64 - PR: 39419
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 478727acf0 - PR: 39397
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: ac3e2e129e - PR: 39355
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 118eb3b48c - PR: 39343
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 21b3228030 - PR: 39325
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 3b7b29b8a6 - PR: 39305
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 729f4bfe53 - PR: 39293
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: eb67a64f75 - PR: 39171
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: a5a5b32ba9 - PR: 39169
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 2c64b52e1c - PR: 39159
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 5b55f4b683 - PR: 39116
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: adb21f956e - PR: 39105
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: dac1555e17 - PR: 39093
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: f0ca4913ad - PR: 39015
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: fbe529b075 - PR: 38817
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: df173ae2cf - PR: 38700
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 2669edc3a1 - PR: 38685
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: ac089b1bfa - PR: 38623
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 6ea6c2fb23 - PR: 38360
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 433b84a185 - PR: 38277
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 936aef21ef - PR: 38158
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: aaaf54561c - PR: 37952
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: e630ca7f4d - PR: 37899
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 64b55f0143 - PR: 37606
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+COMMIT: 309f3b674a - PR: 37293
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed

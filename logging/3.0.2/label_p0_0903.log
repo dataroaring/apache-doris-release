@@ -1,0 +1,296 @@
+tail: cannot follow '-' by name
+label 40121 with dev/3.0.x
+https://github.com/apache/doris/pull/40121
+PR 39996 is not in origin/branch-3.0
+label 39996 with dev/3.0.x
+https://github.com/apache/doris/pull/39996
+PR 39891 is not in origin/branch-3.0
+label 39891 with dev/3.0.x
+https://github.com/apache/doris/pull/39891
+PR 39757 is not in origin/branch-3.0
+label 39757 with dev/3.0.x
+https://github.com/apache/doris/pull/39757
+PR 37788 is not in origin/branch-3.0
+dev/3.0.0-merged
+PR 37532 is not in origin/branch-3.0
+PR 37532 is not in origin/master
+PR 36443 is not in origin/branch-3.0
+PR 36443 is not in origin/master
+PR 34583 is not in origin/branch-3.0
+PR 34583 is not in origin/master
+PR 32679 is not in origin/branch-3.0
+PR 32679 is not in origin/master
+PR 28258 is not in origin/branch-3.0
+PR 28258 is not in origin/master
+PR 25788 is not in origin/branch-3.0
+PR 25788 is not in origin/master
+COMMIT: 901f9706fc - PR: 40121
+[branch-3.0 ef8397fdc2] [fix](Nereids) datetimev2 literal equals should compare microsecond (#40121)
+ Author: morrySnow <101034200+morrySnow@users.noreply.github.com>
+ Date: Fri Aug 30 13:56:05 2024 +0800
+ 2 files changed, 16 insertions(+), 1 deletion(-)
+https://github.com/apache/doris/pull/40121
+COMMIT: 6701e93501 - PR: 39996
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/analysis/NativeInsertStmt.java
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/insert/InsertUtils.java
+Auto-merging regression-test/suites/unique_with_mow_p0/partial_update/test_partial_update_auto_inc.groovy
+CONFLICT (content): Merge conflict in regression-test/suites/unique_with_mow_p0/partial_update/test_partial_update_auto_inc.groovy
+error: could not apply 6701e93501... [Fix](partial update) Fix wrongly update autoinc column in partial update (#39996)
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+https://github.com/apache/doris/pull/39996
+COMMIT: 3c8cc0fe66 - PR: 39891
+Auto-merging be/src/vec/functions/function_string.h
+warning: Cannot merge binary files: regression-test/data/query_p0/sql_functions/string_functions/test_string_function.out (HEAD vs. 3c8cc0fe66 ([Fix](function) fix random_bytes return same data for multi rows (#39891)))
+Auto-merging regression-test/data/query_p0/sql_functions/string_functions/test_string_function.out
+CONFLICT (content): Merge conflict in regression-test/data/query_p0/sql_functions/string_functions/test_string_function.out
+Auto-merging regression-test/suites/query_p0/sql_functions/string_functions/test_string_function.groovy
+CONFLICT (content): Merge conflict in regression-test/suites/query_p0/sql_functions/string_functions/test_string_function.groovy
+error: could not apply 3c8cc0fe66... [Fix](function) fix random_bytes return same data for multi rows (#39891)
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+https://github.com/apache/doris/pull/39891
+COMMIT: f8043cd77b - PR: 39757
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/nereids/rules/analysis/BindExpression.java
+[branch-3.0 2729644124] [fix](table-func) fix explode_map with alias  (#39757)
+ Author: amory <wangqiannan@selectdb.com>
+ Date: Tue Aug 27 14:42:42 2024 +0800
+ 4 files changed, 12 insertions(+), 1 deletion(-)
+https://github.com/apache/doris/pull/39757
+Processing label p0_l,
+Processing label p0_c,
+PR 40215 is not in origin/branch-3.0
+PR 40215 is not in origin/master
+PR 40058 is not in origin/branch-3.0
+label 40058 with dev/3.0.x
+https://github.com/apache/doris/pull/40058
+PR 39914 is not in origin/branch-3.0
+label 39914 with dev/3.0.x
+https://github.com/apache/doris/pull/39914
+PR 38817 is not in origin/branch-3.0
+dev/3.0.2-merged
+PR 38737 is not in origin/branch-3.0
+dev/3.0.1-merged
+PR 38394 is not in origin/branch-3.0
+PR 38394 is not in origin/master
+PR 38364 is not in origin/branch-3.0
+dev/3.0.1-merged
+PR 37839 is not in origin/branch-3.0
+dev/3.0.0-merged
+PR 37674 is not in origin/branch-3.0
+dev/3.0.0-merged
+PR 32744 is not in origin/branch-3.0
+PR 32744 is not in origin/master
+PR 32085 is not in origin/branch-3.0
+PR 32085 is not in origin/master
+PR 30836 is not in origin/branch-3.0
+PR 30836 is not in origin/master
+PR 28627 is not in origin/branch-3.0
+PR 28627 is not in origin/master
+PR 28108 is not in origin/branch-3.0
+PR 28108 is not in origin/master
+PR 27843 is not in origin/branch-3.0
+PR 27843 is not in origin/master
+PR 27765 is not in origin/branch-3.0
+PR 27765 is not in origin/master
+PR 26990 is not in origin/branch-3.0
+PR 26990 is not in origin/master
+COMMIT: bddfd5a48d - PR: 40058
+Auto-merging be/src/olap/merger.cpp
+[branch-3.0 a4a14cb345] [fix](compaction) fix heap-use-after-free caused by compaction sample info resize (#40058)
+ Author: Luwei <814383175@qq.com>
+ Date: Wed Aug 28 23:16:37 2024 +0800
+ 1 file changed, 12 insertions(+), 3 deletions(-)
+https://github.com/apache/doris/pull/40058
+COMMIT: 45ddb8ce9c - PR: 39914
+[branch-3.0 bc7fa2f045] [fix](mtmv) Add debug log decide for performance when query rewrite by materialized view (#39914)
+ Author: seawinde <149132972+seawinde@users.noreply.github.com>
+ Date: Tue Aug 27 10:10:49 2024 +0800
+ 1 file changed, 18 insertions(+), 12 deletions(-)
+https://github.com/apache/doris/pull/39914
+Processing label p0_b,
+PR 40060 is not in origin/branch-3.0
+label 40060 with dev/3.0.x
+https://github.com/apache/doris/pull/40060
+PR 39725 is not in origin/branch-3.0
+dev/3.0.2-merged
+PR 39699 is not in origin/branch-3.0
+label 39699 with dev/3.0.x
+https://github.com/apache/doris/pull/39699
+PR 39629 is not in origin/branch-3.0
+label 39629 with dev/3.0.x
+https://github.com/apache/doris/pull/39629
+PR 39590 is not in origin/branch-3.0
+dev/3.0.2-merged
+PR 38610 is not in origin/branch-3.0
+PR 38610 is not in origin/master
+PR 34562 is not in origin/branch-3.0
+PR 34562 is not in origin/master
+PR 28767 is not in origin/branch-3.0
+PR 28767 is not in origin/master
+PR 28732 is not in origin/branch-3.0
+PR 28732 is not in origin/master
+PR 28212 is not in origin/branch-3.0
+PR 28212 is not in origin/master
+PR 28169 is not in origin/branch-3.0
+PR 28169 is not in origin/master
+PR 27917 is not in origin/branch-3.0
+PR 27917 is not in origin/master
+PR 27880 is not in origin/branch-3.0
+PR 27880 is not in origin/master
+PR 27877 is not in origin/branch-3.0
+PR 27877 is not in origin/master
+PR 27547 is not in origin/branch-3.0
+PR 27547 is not in origin/master
+PR 27169 is not in origin/branch-3.0
+PR 27169 is not in origin/master
+PR 26037 is not in origin/branch-3.0
+PR 26037 is not in origin/master
+PR 25985 is not in origin/branch-3.0
+PR 25985 is not in origin/master
+PR 25856 is not in origin/branch-3.0
+PR 25856 is not in origin/master
+PR 25850 is not in origin/branch-3.0
+PR 25850 is not in origin/master
+PR 24800 is not in origin/branch-3.0
+PR 24800 is not in origin/master
+PR 24610 is not in origin/branch-3.0
+PR 24610 is not in origin/master
+PR 24568 is not in origin/branch-3.0
+PR 24568 is not in origin/master
+PR 23249 is not in origin/branch-3.0
+PR 23249 is not in origin/master
+COMMIT: 20af746a5c - PR: 40060
+[branch-3.0 9ce16c7701] [fix](nereids)change lag/lead function signature (#40060)
+ Author: starocean999 <40539150+starocean999@users.noreply.github.com>
+ Date: Fri Aug 30 10:56:25 2024 +0800
+ 2 files changed, 35 insertions(+), 2 deletions(-)
+ create mode 100644 regression-test/suites/nereids_syntax_p0/lag_lead_signature.groovy
+https://github.com/apache/doris/pull/40060
+COMMIT: 13bd0532d3 - PR: 39699
+[branch-3.0 21f557a1ef] [fix](funcs) map struct construct funcs (#39699)
+ Author: amory <wangqiannan@selectdb.com>
+ Date: Tue Aug 27 14:55:17 2024 +0800
+ 5 files changed, 66 insertions(+), 9 deletions(-)
+ create mode 100644 regression-test/data/datatype_p0/nested_types/query/map_functions/test_map_with_agg.out
+ create mode 100644 regression-test/suites/datatype_p0/nested_types/query/map_functions/test_map_with_agg.groovy
+https://github.com/apache/doris/pull/39699
+COMMIT: 5d4ad02861 - PR: 39629
+[branch-3.0 4fe8b64c2d] [fix](mtmv) Fix result wrong when query rewrite by mv if query contains null_unsafe equals expression (#39629)
+ Author: seawinde <149132972+seawinde@users.noreply.github.com>
+ Date: Wed Aug 28 10:58:08 2024 +0800
+ 5 files changed, 131 insertions(+), 41 deletions(-)
+ rename fe/fe-core/src/main/java/org/apache/doris/nereids/rules/exploration/mv/mapping/{EquivalenceClassSetMapping.java => EquivalenceClassMapping.java} (54%)
+ create mode 100644 regression-test/data/nereids_rules_p0/mv/unsafe_equals/null_un_safe_equals.out
+ create mode 100644 regression-test/suites/nereids_rules_p0/mv/unsafe_equals/null_un_safe_equals.groovy
+https://github.com/apache/doris/pull/39629
+Processing label usercase
+PR 40122 is not in origin/branch-3.0
+PR 40122 is not in origin/master
+PR 39999 is not in origin/branch-3.0
+label 39999 with dev/3.0.x
+https://github.com/apache/doris/pull/39999
+PR 39928 is not in origin/branch-3.0
+PR 39928 is not in origin/master
+PR 39792 is not in origin/branch-3.0
+label 39792 with dev/3.0.x
+https://github.com/apache/doris/pull/39792
+PR 39757 is not in origin/branch-3.0
+dev/3.0.2-merged
+PR 39699 is not in origin/branch-3.0
+dev/3.0.2-merged
+PR 39105 is not in origin/branch-3.0
+dev/3.0.2-merged
+PR 38985 is not in origin/branch-3.0
+dev/3.0.1-merged
+PR 38784 is not in origin/branch-3.0
+PR 38784 is not in origin/master
+PR 38628 is not in origin/branch-3.0
+PR 38628 is not in origin/master
+PR 38500 is not in origin/branch-3.0
+PR 38500 is not in origin/master
+PR 38459 is not in origin/branch-3.0
+PR 38459 is not in origin/master
+PR 38227 is not in origin/branch-3.0
+PR 38227 is not in origin/master
+PR 38215 is not in origin/branch-3.0
+PR 38215 is not in origin/master
+PR 37217 is not in origin/branch-3.0
+dev/3.0.0-merged
+PR 37121 is not in origin/branch-3.0
+dev/3.0.1-merged
+PR 36994 is not in origin/branch-3.0
+PR 36994 is not in origin/master
+PR 36401 is not in origin/branch-3.0
+PR 36401 is not in origin/master
+PR 35714 is not in origin/branch-3.0
+PR 35714 is not in origin/master
+PR 35029 is not in origin/branch-3.0
+PR 35029 is not in origin/master
+PR 34826 is not in origin/branch-3.0
+PR 34826 is not in origin/master
+PR 34103 is not in origin/branch-3.0
+PR 34103 is not in origin/master
+PR 32220 is not in origin/branch-3.0
+PR 32220 is not in origin/master
+PR 32162 is not in origin/branch-3.0
+PR 32162 is not in origin/master
+PR 32157 is not in origin/branch-3.0
+PR 32157 is not in origin/master
+PR 32129 is not in origin/branch-3.0
+PR 32129 is not in origin/master
+PR 29913 is not in origin/branch-3.0
+PR 29913 is not in origin/master
+PR 29363 is not in origin/branch-3.0
+PR 29363 is not in origin/master
+PR 29222 is not in origin/branch-3.0
+PR 29222 is not in origin/master
+PR 29221 is not in origin/branch-3.0
+PR 29221 is not in origin/master
+PR 28872 is not in origin/branch-3.0
+PR 28872 is not in origin/master
+PR 28732 is not in origin/branch-3.0
+PR 28732 is not in origin/master
+PR 28627 is not in origin/branch-3.0
+PR 28627 is not in origin/master
+PR 28357 is not in origin/branch-3.0
+PR 28357 is not in origin/master
+PR 28341 is not in origin/branch-3.0
+PR 28341 is not in origin/master
+PR 28258 is not in origin/branch-3.0
+PR 28258 is not in origin/master
+PR 28212 is not in origin/branch-3.0
+PR 28212 is not in origin/master
+PR 27938 is not in origin/branch-3.0
+PR 27938 is not in origin/master
+PR 27765 is not in origin/branch-3.0
+PR 27765 is not in origin/master
+PR 27608 is not in origin/branch-3.0
+PR 27608 is not in origin/master
+PR 27276 is not in origin/branch-3.0
+PR 27276 is not in origin/master
+PR 26990 is not in origin/branch-3.0
+PR 26990 is not in origin/master
+COMMIT: 9dbd4d9518 - PR: 39999
+Auto-merging fe/fe-core/src/main/java/org/apache/doris/qe/Coordinator.java
+[branch-3.0 d1cf33f2ca] [fix](coordinator) fix union all instance number (#39999)
+ Author: xzj7019 <131111794+xzj7019@users.noreply.github.com>
+ Date: Thu Aug 29 11:26:51 2024 +0800
+ 2 files changed, 111 insertions(+), 20 deletions(-)
+ create mode 100644 regression-test/suites/query_p0/union/test_union_instance.groovy
+https://github.com/apache/doris/pull/39999
+COMMIT: 090b19fef0 - PR: 39792
+[branch-3.0 ca4bd831b6] [fix](cloud) Fix migrate tablets between backends back and forth (#39792)
+ Author: deardeng <565620795@qq.com>
+ Date: Mon Sep 2 00:29:06 2024 +0800
+ 3 files changed, 205 insertions(+), 32 deletions(-)
+ create mode 100644 regression-test/suites/cloud_p0/multi_cluster/test_warmup_rebalance.groovy
+https://github.com/apache/doris/pull/39792
